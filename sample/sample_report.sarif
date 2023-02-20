@@ -1,0 +1,228 @@
+{
+    "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+    "version": "2.1.0",
+    "runs": [{
+            "tool": {
+                "driver": {
+                    "name": "Jtest",
+                    "semanticVersion": "2021.2.0",
+                    "rules": [{
+                            "id": "JDBC.BRSA",
+							
+							"name": "The violation name or its short decription",
+							"helpUri": "https:\/\/snake.parasoft.com\/grs\/dtp\/rulesdoc\/com.parasoft.jtest.standards.checkers.java\/2021.2.0\/JDBC.BRSA.html",
+							
+							"shortDescription": {
+                                "text": "Ensure index is valid in JDBC method invocation"
+                            },
+                            "fullDescription": {
+                                "text": "Ensure index is valid in JDBC method invocation [JDBC.BRSA]"
+                            },
+                            "defaultConfiguration": {
+                                "level": "error"
+                            },
+                            "help": {
+                                "text": "https:\/\/snake.parasoft.com\/grs\/dtp\/rulesdoc\/com.parasoft.jtest.standards.checkers.java\/2021.2.0\/JDBC.BRSA.html",
+                                "markdown": "[Ensure index is valid in JDBC method invocation \\[JDBC.BRSA\\]](https:\/\/snake.parasoft.com\/grs\/dtp\/rulesdoc\/com.parasoft.jtest.standards.checkers.java\/2021.2.0\/JDBC.BRSA.html)"
+                            },
+                            "properties": {
+                                "tags": ["Java Database Connectivity"]
+                            }
+                        }, 
+						{
+						    "id": "BD.RES.LEAKS",
+							
+							"name": "Second violation name or short description",
+							"helpUri": "https:\/\/snake.parasoft.com\/grs\/dtp\/rulesdoc\/com.parasoft.jtest.flowanalyzer\/2021.2.0\/BD.RES.LEAKS.html",
+							
+                            "shortDescription": {
+                                "text": "Ensure resources are deallocated"
+                            },
+                            "fullDescription": {
+                                "text": "Ensure resources are deallocated [BD.RES.LEAKS]"
+                            },
+                            "defaultConfiguration": {
+                                "level": "error"
+                            },
+                            "help": {
+                                "text": "https:\/\/snake.parasoft.com\/grs\/dtp\/rulesdoc\/com.parasoft.jtest.flowanalyzer\/2021.2.0\/BD.RES.LEAKS.html",
+                                "markdown": "[Ensure resources are deallocated \\[BD.RES.LEAKS\\]](https:\/\/snake.parasoft.com\/grs\/dtp\/rulesdoc\/com.parasoft.jtest.flowanalyzer\/2021.2.0\/BD.RES.LEAKS.html)"
+                            },
+                            "properties": {
+                                "tags": ["Flow Analysis", "Resources"]
+                            }
+						}
+                    ]
+                }
+            },
+
+			"versionControlProvenance": [{
+				"repositoryUri": "https://dev.azure.com/xtest-devel/_git/example",
+				"revisionId": "0fa690444bbbcf916df5c900e3f253d9187c0501",
+				"branch": "jtest_demo",
+				"SRCROOT": {
+					"uri": "repositoryUri"
+				}
+			}],
+			
+            "results": [{
+                    "ruleId": "JDBC.BRSA",
+                    "level": "error",
+					"baselineState": "new",
+                    "message": {
+                        "text": "Sample message 1, i.e. '0' is not a valid index value for this method call",
+						"markdown": "Sample message 1, i.e. '0' is not a valid index value for this method call [see here](https:\/\/dev.azure.com\/xtest-devel\/_git\/example?path=%2Fdemo%2Fsrc%2Fmain%2Fjava%2Fexamples%2Fnbank%2FCustomer.java&version=GBjtest_demo&line=22&lineEnd=29&lineStartColumn=1&lineEndColumn=6&lineStyle=plain&_a=contents)"
+                    },
+                    "partialFingerprints": {
+                        "lineHash": "612379775"
+                    },
+                    "locations": [{
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "demo/src/main/java/examples/nbank/Customer.java",
+									"uriBaseId": "SRCROOT"
+                                },
+                                "region": {
+                                    "startLine": 26,
+                                    "startColumn": 12,
+                                    "endColumn": 40
+                                }
+                            }
+                        }
+                    ],
+  					"suppressions": [{
+					  "status": "accepted"
+					}]
+                },
+				{
+                    "ruleId": "JDBC.BRSA",
+                    "level": "warning",
+                    "message": {
+                        "text": "sample message 2 some more text"
+                    },
+                    "partialFingerprints": {
+                        "lineHash": "612379775"
+                    },
+                    "locations": [{
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "demo/src/main/java/examples/nbank/Customer.java",
+									"uriBaseId": "SRCROOT"
+                                },
+                                "region": {
+                                    "startLine": 26,
+                                    "startColumn": 12,
+                                    "endColumn": 40
+                                }
+                            }
+                        }
+                    ]
+                },
+				{
+                    "ruleId": "JDBC.BRSA",
+                    "level": "note",
+					"baselineState": "unchanged",
+                    "message": {
+                        "text": "sample message 3",
+						"markdown": "sample message 3 [see here](https:\/\/dev.azure.com\/xtest-devel\/_git\/example?path=%2Fdemo%2Fsrc%2Fmain%2Fjava%2Fexamples%2Fnbank%2FCustomer.java&version=GBjtest_demo&line=22&lineEnd=29&lineStartColumn=1&lineEndColumn=6&lineStyle=plain&_a=contents)"
+                    },
+                    "partialFingerprints": {
+                        "lineHash": "612379775"
+                    },
+                    "locations": [{
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "demo/src/main/java/examples/nbank/Customer.java",
+									"uriBaseId": "SRCROOT"
+                                },
+                                "region": {
+                                    "startLine": 26,
+                                    "startColumn": 12,
+                                    "endColumn": 40,
+									"snippet": {
+										"text": "This is a mesagge."
+									}
+                                },
+								"contextRegion": {
+									"startLine": 95,
+									"startColumn": 7,
+									"endColumn": 12,
+									"snippet": {
+										"text": "///This is a mesagge."
+									}
+								}
+                            }
+                        }
+                    ]
+                },	
+				{
+                    "ruleId": "BD.RES.LEAKS",
+                    "level": "none",
+					"kind": "open",
+					"baselineState": "absent",
+                    "message": {
+                        "text": "Sample message 2 \n Sample message 3 \n Sample message 4",
+						"markdown": "Another  sample message 1, i.e JDBC resultset not closed: statement.resultSet(), resultSet [see here](https:\/\/dev.azure.com\/xtest-devel\/_git\/example?path=%2Fdemo%2Fsrc%2Fmain%2Fjava%2Fexamples%2Fmetrics%2FMetricsExample.java&version=GBjtest_demo&line=27&lineEnd=30&lineStartColumn=1&lineEndColumn=63&lineStyle=plain&_a=contents)"
+                    },
+                    "partialFingerprints": {
+                        "lineHash": "30537853"
+                    },
+                    "locations": [{
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "demo/src/main/java/examples/metrics/MetricsExample.java",
+									"uriBaseId": "SRCROOT"
+                                },
+                                "region": {
+								    "startLine": 4,
+								    "startColumn": 5,
+								    "endColumn": 22,
+									"snippet": {
+										"text":  "Violation Cause - Start of the path [see here](https:\/\/dev.azure.com\/xtest-devel\/_git\/example?path=%2Fdemo%2Fsrc%2Fmain%2Fjava%2Fexamples%2Fmetrics%2FMetricsExample.java&version=GBjtest_demo&line=27&lineEnd=30&lineStartColumn=1&lineEndColumn=63&lineStyle=plain&_a=contents)\r\nViolation Cause - Continue path [see here](https:\/\/dev.azure.com\/xtest-devel\/_git\/example?path=%2Fdemo%2Fsrc%2Fmain%2Fjava%2Fexamples%2Fmetrics%2FMetricsExample.java&version=GBjtest_demo&line=27&lineEnd=30&lineStartColumn=1&lineEndColumn=63&lineStyle=plain&_a=contents)\r\nViolation Point - Point where senseless condition is used[see here](https:\/\/dev.azure.com\/xtest-devel\/_git\/example?path=%2Fdemo%2Fsrc%2Fmain%2Fjava%2Fexamples%2Fmetrics%2FMetricsExample.java&version=GBjtest_demo&line=27&lineEnd=30&lineStartColumn=1&lineEndColumn=63&lineStyle=plain&_a=contents)",
+										"markdown": "00 00 **01** 00 00 00 00 00"
+									}
+                                }
+                            }
+                        }
+                    ]
+                },
+				{
+                    "ruleId": "BD.RES.LEAKS",
+                    "level": "none",
+					"kind": "pass",
+					"baselineState": "updated",
+                    "message": {
+						"text": "Sample text",
+						"markdown": "**[\\[Line 95\\]](https:\/\/dev.azure.com\/xtest-devel\/_git\/example?path=%2Fdemo%2Fsrc%2Fmain%2Fjava%2Fexamples%2Fnbank%2FCustomer.java&version=GBjtest_demo&line=95&lineEnd=95&lineStartColumn=1&lineEndColumn=6&lineStyle=plain&_a=contents) JDBC Connection not closed: connection**  \n &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [{0} {1}](https:\/\/dev.azure.com\/xtest-devel\/_git\/example?path=%2Fdemo%2Fsrc%2Fmain%2Fjava%2Fexamples%2Fnbank%2FCustomer.java&version=GBjtest_demo&line={1}&lineEnd={2}&lineStartColumn=1&lineEndColumn=38&lineStyle=plain&_a=contents): {3}  \n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [{4} {5}](https:\/\/dev.azure.com\/xtest-devel\/_git\/example?path=%2Fdemo%2Fsrc%2Fmain%2Fjava%2Fexamples%2Fnbank%2FCustomer.java&version=GBjtest_demo&line={5}&lineEnd={6}&lineStartColumn=1&lineEndColumn=38&lineStyle=plain&_a=contents): {7}  \n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [{8} {9}](https:\/\/dev.azure.com\/xtest-devel\/_git\/example?path=%2Fdemo%2Fsrc%2Fmain%2Fjava%2Fexamples%2Fnbank%2FCustomer.java&version=GBjtest_demo&line={9}&lineEnd={10}&lineStartColumn=1&lineEndColumn=38&lineStyle=plain&_a=contents): {11}  \n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Point where the resource is allocated**  \n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [{12} {13}](https:\/\/dev.azure.com\/xtest-devel\/_git\/example?path=%2Fdemo%2Fsrc%2Fmain%2Fjava%2Fexamples%2Fnbank%2FCustomer.java&version=GBjtest_demo&line={13}&lineEnd={14}&lineStartColumn=1&lineEndColumn=38&lineStyle=plain&_a=contents): {15} _\\*\\*\\* Allocated resource variable: connection_  \n &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [{16} {17}](https:\/\/dev.azure.com\/xtest-devel\/_git/example?path=%2Fdemo%2Fsrc%2Fmain%2Fjava%2Fexamples%2Fnbank%2FCustomer.java&version=GBjtest_demo&line={17}&lineEnd={18}&lineStartColumn=1&lineEndColumn=96&lineStyle=plain&_a=contents): {19} _\\*\\*\\* Connection.prepareStatement\\(\\) throws SQLException_   \n &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [{20} {21}](https:\/\/dev.azure.com\/xtest-devel\/_git/example?path=%2Fdemo%2Fsrc%2Fmain%2Fjava%2Fexamples%2Fnbank%2FCustomer.java&version=GBjtest_demo&line={21}&lineEnd={22}&lineStartColumn=1&lineEndColumn=96&lineStyle=plain&_a=contents): {23}  \n &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [{24} {25}](https:\/\/dev.azure.com\/xtest-devel\/_git/example?path=%2Fdemo%2Fsrc%2Fmain%2Fjava%2Fexamples%2Fnbank%2FCustomer.java&version=GBjtest_demo&line={25}&lineEnd={26}&lineStartColumn=1&lineEndColumn=96&lineStyle=plain&_a=contents): {27}  \n &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [{28} {29}](https:\/\/dev.azure.com\/xtest-devel\/_git/example?path=%2Fdemo%2Fsrc%2Fmain%2Fjava%2Fexamples%2Fnbank%2FCustomer.java&version=GBjtest_demo&line={29}&lineEnd={30}&lineStartColumn=1&lineEndColumn=96&lineStyle=plain&_a=contents): {31}  \n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Point where the allocated resource is lost**  \n &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [{32} {33}](https:\/\/dev.azure.com\/xtest-devel\/_git/example?path=%2Fdemo%2Fsrc%2Fmain%2Fjava%2Fexamples%2Fnbank%2FCustomer.java&version=GBjtest_demo&line={33}&lineEnd={34}&lineStartColumn=1&lineEndColumn=96&lineStyle=plain&_a=contents): {35} _\\*\\*\\* Allocated resource variable: connection_",
+						"arguments": ["Customer.java", "70", "70", "Connection connection = null;",
+						"Customer.java", "71", "71", "PreparedStatement statement = null;",
+						"Customer.java", "72", "72", "ResultSet resultSet = null;",
+						"Customer.java", "75", "75", "connection = DriverManager.getConnection(\"bank\", \"bank\", \"system\");",
+						"Customer.java", "84", "84", "statement = connection.prepareStatement(\"select * from accounts where id=\" + \\_ssn);",
+						"Customer.java", "90", "90", "catch (SQLException exception)",
+						"Customer.java", "91", "91", "System.err.println(\"Error loading data from database: \" + exception.getMessage());",
+						"Customer.java", "92", "92", "return false;",
+						"Customer.java", "95", "95", "\\}"]
+                    },
+                    "partialFingerprints": {
+                        "lineHash": "30537853"
+                    },
+                    "locations": [{
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "demo/src/main/java/examples/nbank/Customer.java",
+									"uriBaseId": "SRCROOT"
+                                },
+                                "region": {
+                                    "startLine": 95,
+                                    "startColumn": 7,
+                                    "endColumn": 12
+                                }
+                            }
+                        }
+                    ]
+                }				
+            ]
+        }
+    ]
+}
