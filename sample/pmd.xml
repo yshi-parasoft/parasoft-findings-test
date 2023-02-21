@@ -5,7 +5,7 @@
       <description>Avoid unused local variables such as 'unused'</description>
     </violation>
     <violation beginline="7" endline="7" begincolumn="9" endcolumn="51" rule="LawOfDemeter" ruleset="Java">
-      <description>Law of Demeter: Do not expose the internals of an object by returning references or exposing methods of other objects.</description>
+      <description>Law of Demeter: Do not expose the internals of an object by returning references or exposing methods of other objects</description>
     </violation>
   </file>
   <file name="/path/to/file/AnotherExample.java">
