@@ -9,7 +9,7 @@
                     "rules": [{
                             "id": "JDBC.BRSA",
 							
-							"name": "The violation name or its short decription",
+							"name": "The violation name or its short decription.",
 							"helpUri": "https:\/\/snake.parasoft.com\/grs\/dtp\/rulesdoc\/com.parasoft.jtest.standards.checkers.java\/2021.2.0\/JDBC.BRSA.html",
 							
 							"shortDescription": {
