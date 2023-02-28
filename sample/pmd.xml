@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pmd>
   <file name="MyClass.java">
-    <violation beginline="3" endline="4" rule="AvoidDuplicateLiterals" ruleset="Design"/>
+    <violation beginline="4" endline="4" rule="AvoidDuplicateLiterals" ruleset="Design"/>
     <violation beginline="7" endline="7" rule="UnusedLocalVariable" ruleset="Design"/>
   </file>
   <file name="MyOtherClass.java">
