@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="6.39.0">
-  <file name="/path/to/file/Example.java">
-    <violation beginline="5" endline="5" begincolumn="9" endcolumn="33" rule="UnusedLocalVariable" ruleset="Java">
-      <description>Avoid unused local variables such as 'unused'</description>
-    </violation>
-    <violation beginline="7" endline="7" begincolumn="9" endcolumn="51" rule="LawOfDemeter" ruleset="Java">
-      <description>Law of Demeter: Do not expose the internals of an object by returning references or exposing methods of other objects</description>
-    </violation>
+<pmd>
+  <file name="MyClass.java">
+    <violation beginline="4" endline="4" rule="AvoidDuplicateLiterals" ruleset="Design"/>
+    <violation beginline="7" endline="7" rule="UnusedLocalVariable" ruleset="Design"/>
   </file>
-  <file name="/path/to/file/AnotherExample.java">
-    <violation beginline="12" endline="12" begincolumn="16" endcolumn="23" rule="EmptyCatchBlock" ruleset="Java">
-      <description>Avoid empty catch blocks; they serve no purpose.</description>
-    </violation>
+  <file name="MyOtherClass.java">
+    <violation beginline="3" endline="3" rule="AvoidDuplicateLiterals" ruleset="Design"/>
+    <violation beginline="5" endline="5" rule="UnusedLocalVariable" ruleset="Design"/>
   </file>
+  <duplication lines="3" tokens="24">
+    <file path="/path/to/file/MyClass.java" line="1" endline="3" />
+    <file path="/path/to/file/MyOtherClass.java" line="1" endline="3" />
+  </duplication>
 </pmd>
