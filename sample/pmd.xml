@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pmd>
-  <file name="MyClass.java">
-    <violation beginline="4" endline="4" rule="AvoidDuplicateLiterals" ruleset="Design"/>
-    <violation beginline="7" endline="7" rule="UnusedLocalVariable" ruleset="Design"/>
-  </file>
-  <file name="MyOtherClass.java">
-    <violation beginline="3" endline="3" rule="AvoidDuplicateLiterals" ruleset="Design"/>
-    <violation beginline="5" endline="5" rule="UnusedLocalVariable" ruleset="Design"/>
-  </file>
   <file name="Book.java">
     <violation beginline="23" endline="23" begincolumn="59" endcolumn="63" rule="Declare all formal parameters as &quot;final&quot;" ruleset="ODSTA.BP.FPF" priority="3">Formal parameter 'year' is not declared as final</violation>
   </file>
