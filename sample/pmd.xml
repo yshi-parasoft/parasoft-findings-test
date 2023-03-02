@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="6.38.0" timestamp="2022-10-01T12:00:00.000">
+<pmd>
   <file name="Example1.java">
     <violation beginline="10" endline="10" rule="UnusedPrivateMethod" ruleset="Basic Rules"
       package="com.example" class="Example1" method="unusedMethod">
