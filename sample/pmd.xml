@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pmd>
-  <file name="Example1.java">
-    <violation beginline="10" endline="10" rule="UnusedPrivateMethod" ruleset="Basic Rules"
-      package="com.example" class="Example1" method="unusedMethod">
-      Avoid unused private methods.
-    </violation>
-  </file>
-  <file name="Example2.java">
-    <violation beginline="15" endline="15" rule="ShortVariable" ruleset="Naming"
-      package="com.example" class="Example2" variable="a">
-      Variable name 'a' should be longer than 1 character.
-    </violation>
-  </file>
   <file name="Example3.java">
     <violation beginline="20" endline="20" rule="SwitchStmtsShouldHaveDefault" ruleset="Design"
       package="com.example" class="Example3">
       All switch statements should have a default case.
     </violation>
   </file>
+  <file name="Book.java">
+    <violation beginline="23" endline="23" begincolumn="59" endcolumn="63" rule="Declare all formal parameters as &quot;final&quot;" ruleset="ODSTA.BP.FPF" priority="3">Formal parameter 'year' is not declared as final</violation>
+  </file>
+  <duplication lines="3" tokens="24">
+    <file path="/path/to/file/MyClass.java" line="1" endline="3" />
+    <file path="/path/to/file/MyOtherClass.java" line="1" endline="3" />
+  </duplication>
 </pmd>
