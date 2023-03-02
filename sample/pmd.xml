@@ -8,7 +8,7 @@
     <violation beginline="3" endline="3" rule="AvoidDuplicateLiterals" ruleset="Design"/>
     <violation beginline="5" endline="5" rule="UnusedLocalVariable" ruleset="Design"/>
   </file>
-  <file name="/com.parasoft:parabank/src/main/java/com/parasoft/bookstore/Book.java">
+  <file name="Book.java">
     <violation beginline="23" endline="23" begincolumn="59" endcolumn="63" rule="Declare all formal parameters as &quot;final&quot;" ruleset="ODSTA.BP.FPF" priority="3">Formal parameter 'year' is not declared as final</violation>
   </file>
   <error filename="string" msg="string">string</error>
