@@ -8,7 +8,7 @@
   </file>
   <file name="/com.parasoft:parabank/src/main/java/com/parasoft/bookstore2/BookStoreDB.java">
 	<!-- DupViol -->
-    <violation beginline="96" endline="114" begincolumn="8" endcolumn="45" rule="CDD.DUPC" ruleset="Code Duplication Detection" priority="3">Duplicated code: &quot;boolean hasNext = rs.first();        Vect ...&quot;</violation>
+    <violation beginline="96" endline="114" begincolumn="8" endcolumn="45" rule="CDD.DUPC" ruleset="Code Duplication Detection" priority="3">Duplicated code: &quot;boolean hasNext = rs.first();        Vect ...&quot;\nhihihi</violation>
   </file>
   <error filename="errorfile" msg="errormsg">errorcontent</error>
   <suppressedviolation filename="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs" suppressiontype="CS.INTER.ITT" msg="Internationalize string &quot;USD&quot; in member 'CreateExampleBank' in class 'ExampleBank'." usermsg="yshi" />
