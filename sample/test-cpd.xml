@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pmd-cpd>
-   <file path="/com.parasoft:parabank/src/main/java/com/parasoft/bookstore2/BookStoreDB.java"/>
-   <duplication lines="16">
-      <file column="8" endcolumn="45" endline="81" line="96" path="/com.parasoft:parabank/src/main/java/com/parasoft/bookstore2/BookStoreDB.java"/>
+   <file path="/com.parasoft:parabank/src/main/java/com/parasoft/bookstore2/BookStoreDB.java" totalNumberOfTokens="523"/>
+   <duplication lines="16" tokens="110">
+      <file column="8" endcolumn="45" endline="81" line="96" begintoken="3000" endtoken="3109" path="/com.parasoft:parabank/src/main/java/com/parasoft/bookstore2/BookStoreDB.java"/>
       <file column="8" endcolumn="45" endline="114" line="90" path="/com.parasoft:parabank/src/main/java/com/parasoft/bookstore2/BookStoreDB.java"/>
       <!-- not displayed -->
 	  <codefragment>ddd</codefragment>
