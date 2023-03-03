@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FxCopReport Version="1.36">
+  <Assembly Name="MyAssembly.dll">
+    <Module Name="MyAssembly.dll">
+      <Namespace Name="MyNamespace">
+        <Type Name="MyClass">
+          <Issue Certainty="99" Level="Error" Path="MyAssembly.dll" File="MyFile.cs" Line="10" Message="Avoid using hard-coded paths. Use Path.Combine or a similar method instead." />
+          <Issue Certainty="95" Level="Warning" Path="MyAssembly.dll" File="MyFile.cs" Line="15" Message="Use a try-catch block to catch exceptions that might occur when accessing the database." />
+        </Type>
+      </Namespace>
+    </Module>
+  </Assembly>
+</FxCopReport>
