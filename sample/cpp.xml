@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmd version="100.0">
+  <file name="/FlowAnalysisCpp/DeadLock.cpp">
+    <violation beginline="94" endline="95" begincolumn="0" endcolumn="0" rule="BD-TRS-DIFCS" ruleset="Threads &amp; Synchronization" priority="2" package="Physics">&quot;velocityArray&quot; is used in two critical sections in context of single method, using one critical section will improve atomicity of operation</violation>
+  </file>
+</pmd>

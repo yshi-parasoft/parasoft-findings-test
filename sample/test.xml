@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <pmd version="100.0">
-  <file name="/com.parasoft:parabank/src/main/java/com/parasoft/abb/MyBook.java">
+  <file name="/com.parasoft:parabank/src/main/java/com/parasoft/bookstore/Book.java">
     <violation beginline="1" endline="1" begincolumn="0" endcolumn="31" rule="FORMAT.MCH" ruleset="APSC_DV.003215 The application development team must follow a set of coding standards." priority="2" package="am.I.displayed" externalInfoUrl="http://google.com">This source file does not include a file header comment</violation>
   </file>
   <file name="/com.parasoft:parabank/src/main/java/com/parasoft/bookstore/BookStoreDB.java">
