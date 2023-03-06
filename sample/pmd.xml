@@ -6,11 +6,5 @@
       All switch statements should have a default case.
     </violation>
   </file>
-  <file name="Book.java">
-    <violation beginline="23" endline="23" begincolumn="59" endcolumn="63" rule="Declare all formal parameters as &quot;final&quot;" ruleset="ODSTA.BP.FPF" priority="3">Formal parameter 'year' is not declared as final</violation>
-  </file>
-  <duplication lines="3" tokens="24">
-    <file path="/path/to/file/MyClass.java" line="1" endline="3" />
-    <file path="/path/to/file/MyOtherClass.java" line="1" endline="3" />
-  </duplication>
+  <suppressedviolation filename="Example3.java" suppressiontype="myType" msg="I'm suppressed" usermsg="yshi" />
 </pmd>
