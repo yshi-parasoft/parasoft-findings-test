@@ -11,7 +11,6 @@
   - BookStoreDB.java:61  String query = "SELECT DISTINCT " +
 
   - BookStoreDB.java:80  BookStoreDB db = getDBInstance();
-  |
   --- BookStoreDB.java:51  if (db == null) { *** Condition evaluation: (db == null) (assuming false)
   --- BookStoreDB.java:53  if (db.isClosed()) { *** Condition evaluation: db.isClosed() (assuming false)
   --- BookStoreDB.java:56  return db;
@@ -20,7 +19,7 @@
     BookStoreDB.java:81  Statement stmt = db.getConnection().createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE); *** Allocated resource variable: stmt
 
   - BookStoreDB.java:82  stmt.executeQuery(query) *** Statement.executeQuery() throws SQLException
-  
+
   - Point where the allocated resource is lost
     BookStoreDB.java:85  } *** Allocated resource variable: stmt
     </violation>
