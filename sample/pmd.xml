@@ -4,6 +4,11 @@
     <violation beginline="20" endline="20" rule="SwitchStmtsShouldHaveDefault" ruleset="Design"
       package="com.example" class="Example3">
       All switch statements should have a default case.
+      <ul>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+      </ul>
     </violation>
   </file>
   <suppressedviolation filename="Example3.java" suppressiontype="myType" msg="I'm suppressed" usermsg="yshi" />
