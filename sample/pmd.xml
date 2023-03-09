@@ -3,7 +3,7 @@
   <file name="Example3.java">
     <violation beginline="20" endline="20" rule="SwitchStmtsShouldHaveDefault" ruleset="Design"
       package="com.example" class="Example3">
-      All switch 𝘪statements𝘪 should have a default case
+      All switch <b>statements</b> should have a default case
     </violation>
   </file>
   <suppressedviolation filename="Example3.java" suppressiontype="myType" msg="I'm suppressed" usermsg="yshi" />
