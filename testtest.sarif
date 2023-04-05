@@ -1,0 +1,65 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Jtest",
+          "semanticVersion": "2022.2.0",
+          "rules": [
+            {
+              "id": "APSC_DV.001460.NTERR",
+              "name": "Do not throw exception types which are too general or are unchecked exceptions",
+              "shortDescription": {
+                "text": "Do not throw exception types which are too general or are unchecked exceptions"
+              },
+              "fullDescription": {
+                "text": "Do not throw exception types which are too general or are unchecked exceptions [APSC_DV.001460.NTERR]"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "help": {
+                "text": "Do not throw exception types which are too general or are unchecked exceptions [APSC_DV.001460.NTERR]"
+              },
+              "properties": {
+                "tags": [
+                  "DISA ASD STIG",
+                  "APSC_DV.001460 An application vulnerability assessment must be conducted."
+                ]
+              }
+            },
+		}
+      },
+	  "results": [
+		{
+          "ruleId": "APSC_DV.001460.NTERR",
+          "level": "error",
+          "message": {
+            "text": "Avoid throwing 'Exception'",
+            "markdown": "**\\[Line 252\\] Avoid throwing 'Exception'**"
+          },
+          "partialFingerprints": {
+            "lineHash": "-581058345"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://rhea/C:/Users/yshi/git/sonarqube-integration-tests/projects/parabank/src/main/java/com/parasoft/bookstore/BookStoreDB.java"
+                },
+                "region": {
+                  "startLine": 252,
+                  "startColumn": 13,
+                  "endLine": 253,
+                  "endColumn": 161
+                }
+              }
+            }
+          ]
+        },
+		]
+    }
+  ]
+}
