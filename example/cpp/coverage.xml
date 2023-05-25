@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Coverage ver="2" toolVer="2022.1.0" execEnv="win32_x86_64" hasViols="false" project="Timer" buildId="Timer-2023-05-24" climode="true" toolDispName="C/C++test" toolId="c++test" machine="DESKTOP-DCD46AU" tag="Coverage-${project_module}-${scontrol_branch}-win32_x86_64" time="2023-05-24T17:28:32+08:00" id="1684167691639" lang="en_US" user="devtest" toolName="DTP Engine for C/C++">
+	<TestConfig machine="DESKTOP-DCD46AU" pseudoUrl="builtin://Coverage" name="Coverage" user="devtest" />
+	<VersionInfos>
+		<VersionInfo id="LC" ver="1" />
+	</VersionInfos>
+	<Repositories />
+	<Locations>
+		<Loc locRef="1" uri="file://DESKTOP-DCD46AU/C:/azure/agent_cloud/_work/13/s/clock.c" hash="-249486341" />
+		<Loc locRef="2" uri="file://DESKTOP-DCD46AU/C:/azure/agent_cloud/_work/13/s/timer.c" hash="-275311578" />
+		<Loc locRef="3" uri="file://DESKTOP-DCD46AU/C:/azure/agent_cloud/_work/13/s/stdinout.c" hash="844867668" />
+		<Loc locRef="4" uri="file://DESKTOP-DCD46AU/C:/azure/agent_cloud/_work/13/s/driver.c" hash="65740504" />
+	</Locations>
+	<Tests>
+		<Test testRef="1" id="" />
+	</Tests>
+	<CoverageData type="LC">
+		<CvgData locRef="1">
+			<Stats>
+				<Item itemRef="1" id="3626cfbf_display_time" name="display_time" />
+				<Item itemRef="2" id="3626cfbf_set_time" name="set_time" />
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="15 16 17 19 20" hashes="-2004706563 -1564703446 -237631284 369521280 -1350296736" />
+				<StatCvg itemRef="2" elems="28" hashes="123" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="2">
+			<Stats>
+				<Item itemRef="1" id="b4370936_delete_timer_record" name="delete_timer_record" />
+				<Item itemRef="2" id="b4370936_query_user" name="query_user" />
+				<Item itemRef="3" id="b4370936_init_timer" name="init_timer" />
+				<Item itemRef="4" id="b4370936_add_timer_record" name="add_timer_record" />
+				<Item itemRef="5" id="b4370936_list_timers" name="list_timers" />
+				<Item itemRef="6" id="b4370936_add_timer" name="add_timer" />
+				<Item itemRef="7" id="b4370936_format_timer_record" name="format_timer_record" />
+				<Item itemRef="8" id="b4370936_uninit_timer" name="uninit_timer" />
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="110 111 114 116 117 119 122 123" hashes="-1356760849 1679375043 -1694282400 1747357394 207609628 -1724712002 -1575012362 -813884052" />
+				<StatCvg itemRef="2" elems="40 41 42 43 45 46 48 49 52 53 54 55 57 60 61 62 63 65 68 69 71" hashes="621530644 -456882160 1079331828 1350390768 1705568950 -1526808077 -527707354 1340052799 -337297020 1051372518 -1456902895 -1585297472 -731975428 17156239 1051372518 -129737380 -1585297472 -1409060683 -397800787 1021803899 601074313" />
+				<StatCvg itemRef="3" elems="22" hashes="-1074791283" />
+				<StatCvg itemRef="4" elems="97 98 100" hashes="-1600799721 -1933903777 -1597326853" />
+				<StatCvg itemRef="5" elems="144 145 146 147 148 150 151 153" hashes="-2004706563 1679375043 1628413856 1760988551 1531685295 -1846563555 924656480 -332149005" />
+				<StatCvg itemRef="6" elems="76 78 80 81 83 85" hashes="-1646187554 -174357818 -1502932978 1779373602 -992348185 -1256396037" />
+				<StatCvg itemRef="7" elems="128 129 131 133 134 136 137" hashes="-1285013714 -1725726827 -1356760849 -23883783 -1644342585 130267201 201551585" />
+				<StatCvg itemRef="8" elems="28 30 31" hashes="1679375043 1743982722 26121042" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="1" elemRefs="22" />
+				</DynCvg>
+				<DynCvg itemRef="8">
+					<CtxCvg testRefs="1" elemRefs="28 30 31" />
+				</DynCvg>
+				<DynCvg itemRef="1">
+					<CtxCvg testRefs="1" elemRefs="110 111 114 116 117 122 123" />
+				</DynCvg>
+				<DynCvg itemRef="4">
+					<CtxCvg testRefs="1" elemRefs="97 98" />
+				</DynCvg>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="1" elemRefs="40 41 42 43 45 46 48 49 52 53 54 55 57 60 61 62 63 65 68 69 71" />
+				</DynCvg>
+				<DynCvg itemRef="6">
+					<CtxCvg testRefs="1" elemRefs="76 78 80 81 85" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="3">
+			<Stats>
+				<Item itemRef="1" id="64b90d7f_get_input_digit" name="get_input_digit" />
+				<Item itemRef="2" id="64b90d7f_print_string" name="print_string" />
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="18 19 20 35 38 39 40 41 45 46" hashes="-695983806 1679375043 -2004706563 -1448247265 -1663270807 410470818 -1384567970 1605700164 1793475976 1849933771" />
+				<StatCvg itemRef="2" elems="54" hashes="-206127679" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="1" elemRefs="54" />
+				</DynCvg>
+				<DynCvg itemRef="1">
+					<CtxCvg testRefs="1" elemRefs="18 19 20 35 38 39 40 41 45 46" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="4">
+			<Stats>
+				<Item itemRef="1" id="2ac6a261_main" name="main" />
+				<Item itemRef="2" id="2ac6a261_print_menu_get_action" name="print_menu_get_action" />
+				<Item itemRef="3" id="2ac6a261_main_loop" name="main_loop" />
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="71 72 73 74" hashes="932563601 -660983347 699424085 -1256396037" />
+				<StatCvg itemRef="2" elems="15 16 17 18 19 20 21 22 23 24 25 26 28 29" hashes="923795973 378303775 461595667 -1874811899 1674314502 -94421320 834318816 1075694496 -1874811899 -1018687565 -1874811899 -1234703117 -859906268 -495843510" />
+				<StatCvg itemRef="3" elems="34 35 37 40 41 42 44 46 48 49 50 52 53 55 56 59 60 63 64" hashes="1823244012 1236489322 224730964 -1326866858 170011725 420014112 1318983287 207609628 482597223 -429052551 207609628 1582224491 207609628 -1947009296 207609628 -1303736882 -1196601077 94038296 207609628" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="1" elemRefs="34 35 37 40 41 44 46 59 60 63 64" />
+				</DynCvg>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="1" elemRefs="15 16 17 18 19 20 21 22 23 24 25 26 28 29" />
+				</DynCvg>
+				<DynCvg itemRef="1">
+					<CtxCvg testRefs="1" elemRefs="71 72 73 74" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+	</CoverageData>
+</Coverage>
