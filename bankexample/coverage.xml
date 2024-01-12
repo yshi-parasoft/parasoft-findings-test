@@ -1,0 +1,346 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Coverage ver="2" toolVer="2023.1.0" execEnv="win32_x86_64" hasViols="false" project="" buildId="2023-10-19" climode="true" toolDispName="dotTEST" prjModule="Parasoft.Dottest.Examples.Bank" toolId="dottest" machine="yshi-laptop" tag="${scontrol_branch}-win32_x86_64" time="2023-10-19T17:46:42-07:00" id="1696693399741" lang="en_US" user="yshi" toolName="DTP Engine for .NET">
+	<TestConfig machine="yshi-laptop" pseudoUrl="builtin://Run VSTest Tests with Coverage" name="Run VSTest Tests with Coverage" user="yshi" />
+	<VersionInfos>
+		<VersionInfo id="LC" ver="1" />
+	</VersionInfos>
+	<Repositories />
+	<Locations>
+		<Loc locRef="1" projId="Parasoft.Dottest.Examples.Bank" codeBase="C:\Users\yshi\git\BankExample.NET\Parasoft.Dottest.Examples.Bank\AccountNumber.cs" sym="Parasoft.Dottest.Examples.Bank.dll/Parasoft.Dottest.Examples.Bank.AccountNumber:1483600742135913326" assembly="Parasoft.Dottest.Examples.Bank.dll" project="Parasoft.Dottest.Examples.Bank" resProjPath="AccountNumber.cs" uri="file:/C:/Users/yshi/git/BankExample.NET/Parasoft.Dottest.Examples.Bank/AccountNumber.cs" projPath="BankExample.NET/Parasoft.Dottest.Examples.Bank" hash="-1037776574" />
+		<Loc locRef="2" projId="Parasoft.Dottest.Examples.Bank" codeBase="C:\Users\yshi\git\BankExample.NET\Parasoft.Dottest.Examples.Bank\Bank.cs" sym="Parasoft.Dottest.Examples.Bank.dll/Parasoft.Dottest.Examples.Bank.Bank:96010174200130062" assembly="Parasoft.Dottest.Examples.Bank.dll" project="Parasoft.Dottest.Examples.Bank" resProjPath="Bank.cs" uri="file:/C:/Users/yshi/git/BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs" projPath="BankExample.NET/Parasoft.Dottest.Examples.Bank" hash="225911240" />
+		<Loc locRef="3" projId="Parasoft.Dottest.Examples.Bank" codeBase="C:\Users\yshi\git\BankExample.NET\Parasoft.Dottest.Examples.Bank\BankAccount.cs" sym="Parasoft.Dottest.Examples.Bank.dll/Parasoft.Dottest.Examples.Bank.BankAccount:8715741287458181468" assembly="Parasoft.Dottest.Examples.Bank.dll" project="Parasoft.Dottest.Examples.Bank" resProjPath="BankAccount.cs" uri="file:/C:/Users/yshi/git/BankExample.NET/Parasoft.Dottest.Examples.Bank/BankAccount.cs" projPath="BankExample.NET/Parasoft.Dottest.Examples.Bank" hash="33954980" />
+		<Loc locRef="4" projId="Parasoft.Dottest.Examples.Bank" codeBase="C:\Users\yshi\git\BankExample.NET\Parasoft.Dottest.Examples.Bank\BankUser.cs" sym="Parasoft.Dottest.Examples.Bank.dll/Parasoft.Dottest.Examples.Bank.BankUser:-1411878663703444311" assembly="Parasoft.Dottest.Examples.Bank.dll" project="Parasoft.Dottest.Examples.Bank" resProjPath="BankUser.cs" uri="file:/C:/Users/yshi/git/BankExample.NET/Parasoft.Dottest.Examples.Bank/BankUser.cs" projPath="BankExample.NET/Parasoft.Dottest.Examples.Bank" hash="190994750" />
+		<Loc locRef="5" projId="Parasoft.Dottest.Examples.Bank" codeBase="C:\Users\yshi\git\BankExample.NET\Parasoft.Dottest.Examples.Bank\CurrencyExchangeConverter.cs" sym="Parasoft.Dottest.Examples.Bank.dll/Parasoft.Dottest.Examples.Bank.CurrencyExchangeConverter:-7752270923350177522" assembly="Parasoft.Dottest.Examples.Bank.dll" project="Parasoft.Dottest.Examples.Bank" resProjPath="CurrencyExchangeConverter.cs" uri="file:/C:/Users/yshi/git/BankExample.NET/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs" projPath="BankExample.NET/Parasoft.Dottest.Examples.Bank" hash="2123378625" />
+		<Loc locRef="6" projId="Parasoft.Dottest.Examples.Bank" codeBase="C:\Users\yshi\git\BankExample.NET\Parasoft.Dottest.Examples.Bank\ExampleBank.cs" sym="Parasoft.Dottest.Examples.Bank.dll/Parasoft.Dottest.Examples.Bank.ExampleBank:-6319979655619387141" assembly="Parasoft.Dottest.Examples.Bank.dll" project="Parasoft.Dottest.Examples.Bank" resProjPath="ExampleBank.cs" uri="file:/C:/Users/yshi/git/BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs" projPath="BankExample.NET/Parasoft.Dottest.Examples.Bank" hash="-1333971617" />
+		<Loc locRef="7" projId="Parasoft.Dottest.Examples.Bank" codeBase="C:\Users\yshi\git\BankExample.NET\Parasoft.Dottest.Examples.Bank\ReportGenerator.cs" sym="Parasoft.Dottest.Examples.Bank.dll/Parasoft.Dottest.Examples.Bank.Comment:31258656848;Parasoft.Dottest.Examples.Bank.dll/Parasoft.Dottest.Examples.Bank.ReportGenerator:2360122158392121482" assembly="Parasoft.Dottest.Examples.Bank.dll" project="Parasoft.Dottest.Examples.Bank" resProjPath="ReportGenerator.cs" uri="file:/C:/Users/yshi/git/BankExample.NET/Parasoft.Dottest.Examples.Bank/ReportGenerator.cs" projPath="BankExample.NET/Parasoft.Dottest.Examples.Bank" hash="-1513177483" />
+		<Loc locRef="8" projId="Parasoft.Dottest.Examples.Bank" codeBase="C:\Users\yshi\git\BankExample.NET\Parasoft.Dottest.Examples.Bank\Transactions\ExternalTransfer.cs" sym="Parasoft.Dottest.Examples.Bank.dll/Parasoft.Dottest.Examples.Bank.Transactions.ExternalTransfer:5525968111796031521" assembly="Parasoft.Dottest.Examples.Bank.dll" project="Parasoft.Dottest.Examples.Bank" resProjPath="Transactions/ExternalTransfer.cs" uri="file:/C:/Users/yshi/git/BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/ExternalTransfer.cs" projPath="BankExample.NET/Parasoft.Dottest.Examples.Bank" hash="2123519255" />
+		<Loc locRef="9" projId="Parasoft.Dottest.Examples.Bank" codeBase="C:\Users\yshi\git\BankExample.NET\Parasoft.Dottest.Examples.Bank\Transactions\IncommingTransfer.cs" sym="Parasoft.Dottest.Examples.Bank.dll/Parasoft.Dottest.Examples.Bank.Transactions.IncommingTransfer:6003154558874" assembly="Parasoft.Dottest.Examples.Bank.dll" project="Parasoft.Dottest.Examples.Bank" resProjPath="Transactions/IncommingTransfer.cs" uri="file:/C:/Users/yshi/git/BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/IncommingTransfer.cs" projPath="BankExample.NET/Parasoft.Dottest.Examples.Bank" hash="-1435513077" />
+		<Loc locRef="10" projId="Parasoft.Dottest.Examples.Bank" codeBase="C:\Users\yshi\git\BankExample.NET\Parasoft.Dottest.Examples.Bank\Transactions\OutgoingTransfer.cs" sym="Parasoft.Dottest.Examples.Bank.dll/Parasoft.Dottest.Examples.Bank.Transactions.OutgoingTransfer:31109936368" assembly="Parasoft.Dottest.Examples.Bank.dll" project="Parasoft.Dottest.Examples.Bank" resProjPath="Transactions/OutgoingTransfer.cs" uri="file:/C:/Users/yshi/git/BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/OutgoingTransfer.cs" projPath="BankExample.NET/Parasoft.Dottest.Examples.Bank" hash="-2022280772" />
+		<Loc locRef="11" projId="Parasoft.Dottest.Examples.Bank" codeBase="C:\Users\yshi\git\BankExample.NET\Parasoft.Dottest.Examples.Bank\Transactions\TransactionBase.cs" sym="Parasoft.Dottest.Examples.Bank.dll/Parasoft.Dottest.Examples.Bank.Transactions.TransactionBase:5815796950423083143" assembly="Parasoft.Dottest.Examples.Bank.dll" project="Parasoft.Dottest.Examples.Bank" resProjPath="Transactions/TransactionBase.cs" uri="file:/C:/Users/yshi/git/BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/TransactionBase.cs" projPath="BankExample.NET/Parasoft.Dottest.Examples.Bank" hash="-607436831" />
+		<Loc locRef="12" projId="Parasoft.Dottest.Examples.Bank" codeBase="C:\Users\yshi\git\BankExample.NET\Parasoft.Dottest.Examples.Bank\Transactions\TransferTransaction.cs" sym="Parasoft.Dottest.Examples.Bank.dll/Parasoft.Dottest.Examples.Bank.Transactions.TransferTransaction:5989807710130" assembly="Parasoft.Dottest.Examples.Bank.dll" project="Parasoft.Dottest.Examples.Bank" resProjPath="Transactions/TransferTransaction.cs" uri="file:/C:/Users/yshi/git/BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/TransferTransaction.cs" projPath="BankExample.NET/Parasoft.Dottest.Examples.Bank" hash="-343300954" />
+		<Loc locRef="13" projId="Parasoft.Dottest.Examples.Bank" codeBase="C:\Users\yshi\git\BankExample.NET\Parasoft.Dottest.Examples.Bank\Money\Currency.cs" sym="Parasoft.Dottest.Examples.Bank.dll/Parasoft.Dottest.Examples.Bank.Money.Currency:4587448210104922201" assembly="Parasoft.Dottest.Examples.Bank.dll" project="Parasoft.Dottest.Examples.Bank" resProjPath="Money/Currency.cs" uri="file:/C:/Users/yshi/git/BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs" projPath="BankExample.NET/Parasoft.Dottest.Examples.Bank" hash="-1644265069" />
+		<Loc locRef="14" projId="Parasoft.Dottest.Examples.Bank" codeBase="C:\Users\yshi\git\BankExample.NET\Parasoft.Dottest.Examples.Bank\Money\CurrencyInfo.cs" sym="Parasoft.Dottest.Examples.Bank.dll/Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo:-1798989024429035779" assembly="Parasoft.Dottest.Examples.Bank.dll" project="Parasoft.Dottest.Examples.Bank" resProjPath="Money/CurrencyInfo.cs" uri="file:/C:/Users/yshi/git/BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyInfo.cs" projPath="BankExample.NET/Parasoft.Dottest.Examples.Bank" hash="-854174013" />
+		<Loc locRef="15" projId="Parasoft.Dottest.Examples.Bank" codeBase="C:\Users\yshi\git\BankExample.NET\Parasoft.Dottest.Examples.Bank\Money\CurrencyProvider.cs" sym="Parasoft.Dottest.Examples.Bank.dll/Parasoft.Dottest.Examples.Bank.Money.CurrencyProvider:-61093076023477114" assembly="Parasoft.Dottest.Examples.Bank.dll" project="Parasoft.Dottest.Examples.Bank" resProjPath="Money/CurrencyProvider.cs" uri="file:/C:/Users/yshi/git/BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs" projPath="BankExample.NET/Parasoft.Dottest.Examples.Bank" hash="-1251910444" />
+		<Loc locRef="16" projId="Parasoft.Dottest.Examples.Bank" codeBase="C:\Users\yshi\git\BankExample.NET\Parasoft.Dottest.Examples.Bank\Money\CurrencyWithCents.cs" sym="Parasoft.Dottest.Examples.Bank.dll/Parasoft.Dottest.Examples.Bank.Money.CurrencyWithCents:-7333621747495824117" assembly="Parasoft.Dottest.Examples.Bank.dll" project="Parasoft.Dottest.Examples.Bank" resProjPath="Money/CurrencyWithCents.cs" uri="file:/C:/Users/yshi/git/BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs" projPath="BankExample.NET/Parasoft.Dottest.Examples.Bank" hash="-760614867" />
+		<Loc locRef="17" projId="Parasoft.Dottest.Examples.Bank" codeBase="C:\Users\yshi\git\BankExample.NET\Parasoft.Dottest.Examples.Bank\Money\CurrencyWithNoCents.cs" sym="Parasoft.Dottest.Examples.Bank.dll/Parasoft.Dottest.Examples.Bank.Money.CurrencyWithNoCents:23991183701244" assembly="Parasoft.Dottest.Examples.Bank.dll" project="Parasoft.Dottest.Examples.Bank" resProjPath="Money/CurrencyWithNoCents.cs" uri="file:/C:/Users/yshi/git/BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithNoCents.cs" projPath="BankExample.NET/Parasoft.Dottest.Examples.Bank" hash="1998113113" />
+	</Locations>
+	<Tests />
+	<CoverageData type="LC">
+		<CvgData locRef="1">
+			<Stats>
+				<Item itemRef="1" id="Parasoft.Dottest.Examples.Bank.AccountNumber..ctor(System.Byte[])" name="AccountNumber.AccountNumber(System.Byte[])" />
+				<Item itemRef="2" id="Parasoft.Dottest.Examples.Bank.AccountNumber.GetHashCode()" name="AccountNumber.GetHashCode()" />
+				<Item itemRef="3" id="Parasoft.Dottest.Examples.Bank.AccountNumber.ToString()" name="AccountNumber.ToString()" />
+				<Item itemRef="4" id="Parasoft.Dottest.Examples.Bank.AccountNumber.Equals(System.Object)" name="AccountNumber.Equals(System.Object)" />
+				<Item itemRef="5" id="Parasoft.Dottest.Examples.Bank.AccountNumber.Create(System.Char[])" name="AccountNumber.Create(System.Char[])" />
+				<Item itemRef="6" id="Parasoft.Dottest.Examples.Bank.AccountNumber.Create(System.String)" name="AccountNumber.Create(System.String)" />
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="11 13 14 12" hashes="-1839805866 -867913001 1508372605 1508372603" />
+				<StatCvg itemRef="2" elems="45 52 47 49 50 48 46 51" hashes="1508372603 1508372605 1387592230 -1339604019 1178724477 1178724475 -596990545 -828955139" />
+				<StatCvg itemRef="3" elems="37 40 38 36 41 35 42 39" hashes="1387592230 1178724477 1178724475 1329772110 -1282701173 1508372603 1508372605 1919297135" />
+				<StatCvg itemRef="4" elems="58 61 68 55 63 69 59 64 56 57 65 62 67" hashes="1178724475 730834568 -817364611 1508372603 1295911121 1508372605 -1437933464 81780859 -1853614695 1973792099 502847592 1178724475 1178724477" />
+				<StatCvg itemRef="5" elems="80 86 81 75 73 87 88 74 78 83 79 72 76 84" hashes="-638136753 1178724477 81780861 -986903520 232838629 -2128064317 1508372605 214298486 1749135086 81780859 81780859 1508372603 1178724475 -1918049269" />
+				<StatCvg itemRef="6" elems="31 19 32 18 22 27 23 20 28 24 30 17 25" hashes="-1656553333 -2001754959 1508372605 -2109299667 1149394710 81780859 81780859 1178724475 1641499107 617107591 1178724477 1508372603 81780861" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="2">
+			<Stats>
+				<Item itemRef="1" id="Parasoft.Dottest.Examples.Bank.Bank.get_Coverter()" name="Bank.get_Coverter()" />
+				<Item itemRef="2" id="Parasoft.Dottest.Examples.Bank.Bank.AddCurrency(Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" name="Bank.AddCurrency(Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" />
+				<Item itemRef="3" id="Parasoft.Dottest.Examples.Bank.Bank.Transfer(Parasoft.Dottest.Examples.Bank.BankAccount,Parasoft.Dottest.Examples.Bank.AccountNumber,Parasoft.Dottest.Examples.Bank.Money.Currency)" name="Bank.Transfer(Parasoft.Dottest.Examples.Bank.BankAccount, Parasoft.Dottest.Examples.Bank.AccountNumber, Parasoft.Dottest.Examples.Bank.Money.Currency)" />
+				<Item itemRef="4" id="Parasoft.Dottest.Examples.Bank.Bank.AverageAccountsNumWithCurrency(Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" name="Bank.AverageAccountsNumWithCurrency(Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" />
+				<Item itemRef="5" id="Parasoft.Dottest.Examples.Bank.Bank.AddUser(Parasoft.Dottest.Examples.Bank.BankUser)" name="Bank.AddUser(Parasoft.Dottest.Examples.Bank.BankUser)" />
+				<Item itemRef="6" id="Parasoft.Dottest.Examples.Bank.Bank.AddAccount(Parasoft.Dottest.Examples.Bank.BankAccount)" name="Bank.AddAccount(Parasoft.Dottest.Examples.Bank.BankAccount)" />
+				<Item itemRef="7" id="Parasoft.Dottest.Examples.Bank.Bank.GetAccounts(Parasoft.Dottest.Examples.Bank.BankUser)" name="Bank.GetAccounts(Parasoft.Dottest.Examples.Bank.BankUser)" />
+				<Item itemRef="8" id="Parasoft.Dottest.Examples.Bank.Bank.set_Coverter(Parasoft.Dottest.Examples.Bank.CurrencyExchangeConverter)" name="Bank.set_Coverter(Parasoft.Dottest.Examples.Bank.CurrencyExchangeConverter)" />
+				<Item itemRef="9" id="Parasoft.Dottest.Examples.Bank.Bank.GetCurrency(System.String)" name="Bank.GetCurrency(System.String)" />
+				<Item itemRef="10" id="Parasoft.Dottest.Examples.Bank.Bank.CountUSDAccounts(Parasoft.Dottest.Examples.Bank.BankUser)" name="Bank.CountUSDAccounts(Parasoft.Dottest.Examples.Bank.BankUser)" />
+				<Item itemRef="11" id="Parasoft.Dottest.Examples.Bank.Bank.AddAccount2(Parasoft.Dottest.Examples.Bank.BankAccount)" name="Bank.AddAccount2(Parasoft.Dottest.Examples.Bank.BankAccount)" />
+				<Item itemRef="12" id="Parasoft.Dottest.Examples.Bank.Bank.ComputeTotalCash(Parasoft.Dottest.Examples.Bank.BankUser,ref Parasoft.Dottest.Examples.Bank.Money.Currency)" name="Bank.ComputeTotalCash(Parasoft.Dottest.Examples.Bank.BankUser, Parasoft.Dottest.Examples.Bank.Money.Currency&amp;)" />
+				<Item itemRef="13" id="Parasoft.Dottest.Examples.Bank.Bank.GetUserByLogin(System.String)" name="Bank.GetUserByLogin(System.String)" />
+				<Item itemRef="14" id="Parasoft.Dottest.Examples.Bank.Bank..ctor()" name="Bank.Bank()" />
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="154" hashes="481728681" />
+				<StatCvg itemRef="2" elems="24 25 23" hashes="-1486198182 1508372605 1508372603" />
+				<StatCvg itemRef="3" elems="117 127 114 132 123 128 115 133 124 125 129 112 120 134 116 135 136" hashes="1261124611 1178724475 -2103441477 -556148301 1997690254 1385740998 1178724475 1997690254 -1466141175 1178724477 1261124611 1508372603 -1105760830 -518609587 1385740998 1178724477 1508372605" />
+				<StatCvg itemRef="4" elems="99 109 95 103 100 104 93 97 105 106 101 107 98 94 102 108" hashes="-241140781 1508372605 -1995861417 1803597676 81780859 -742270851 1508372603 -142427288 16871733 81780861 774738851 1178724477 1178724475 -1574173168 -742270853 691716389" />
+				<StatCvg itemRef="5" elems="29 30 28" hashes="-65437503 1508372605 1508372603" />
+				<StatCvg itemRef="6" elems="38 40 42 45 41 43 46 44 47" hashes="1508372603 1281344679 1922658444 -947405776 1178724475 223019923 -1032175682 1178724477 1508372605" />
+				<StatCvg itemRef="7" elems="70 71 69" hashes="-1723253585 1508372605 1508372603" />
+				<StatCvg itemRef="8" elems="154" hashes="481728681" />
+				<StatCvg itemRef="9" elems="34 35 33" hashes="2122077544 1508372605 1508372603" />
+				<StatCvg itemRef="10" elems="77 86 81 74 78 82 87 75 79 89 84 90 76 80" hashes="599598872 81780861 -1999786132 1508372603 1178724475 81780861 -1510627844 932210696 -1210635292 -57954820 81780859 1508372605 -1574173168 81780859" />
+				<StatCvg itemRef="11" elems="58 56 59 50 52 54 57 53 55" hashes="-1032175682 1178724477 1508372605 1508372603 1281344679 1922658444 -947405776 1178724475 223019923" />
+				<StatCvg itemRef="12" elems="145 149 146 150 151 142 152 147 139 143 148 140" hashes="824223160 49088195 1178724475 81780861 1178724477 932210696 1508372605 -1124306116 1508372603 1008699063 81780859 -1392464517" />
+				<StatCvg itemRef="13" elems="65 66 62 64" hashes="-816426272 1508372605 1508372603 1637217788" />
+				<StatCvg itemRef="14" elems="18 16 14 12" hashes="-58488581 -1112759259 -734703450 780509262" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="3">
+			<Stats>
+				<Item itemRef="1" id="Parasoft.Dottest.Examples.Bank.BankAccount..cctor()" name="BankAccount.BankAccount()" />
+				<Item itemRef="2" id="Parasoft.Dottest.Examples.Bank.BankAccount.get_Balance()" name="BankAccount.get_Balance()" />
+				<Item itemRef="3" id="Parasoft.Dottest.Examples.Bank.BankAccount.get_Owner()" name="BankAccount.get_Owner()" />
+				<Item itemRef="4" id="Parasoft.Dottest.Examples.Bank.BankAccount.get_Number()" name="BankAccount.get_Number()" />
+				<Item itemRef="5" id="Parasoft.Dottest.Examples.Bank.BankAccount..ctor(Parasoft.Dottest.Examples.Bank.BankUser,Parasoft.Dottest.Examples.Bank.Money.Currency,Parasoft.Dottest.Examples.Bank.AccountNumber)" name="BankAccount.BankAccount(Parasoft.Dottest.Examples.Bank.BankUser, Parasoft.Dottest.Examples.Bank.Money.Currency, Parasoft.Dottest.Examples.Bank.AccountNumber)" />
+				<Item itemRef="6" id="Parasoft.Dottest.Examples.Bank.BankAccount.get_History()" name="BankAccount.get_History()" />
+				<Item itemRef="7" id="Parasoft.Dottest.Examples.Bank.BankAccount.get_CurrencyInfo()" name="BankAccount.get_CurrencyInfo()" />
+				<Item itemRef="8" id="Parasoft.Dottest.Examples.Bank.BankAccount.set_Balance(Parasoft.Dottest.Examples.Bank.Money.Currency)" name="BankAccount.set_Balance(Parasoft.Dottest.Examples.Bank.Money.Currency)" />
+				<Item itemRef="9" id="Parasoft.Dottest.Examples.Bank.BankAccount.Transfer(Parasoft.Dottest.Examples.Bank.AccountNumber,Parasoft.Dottest.Examples.Bank.Money.Currency)" name="BankAccount.Transfer(Parasoft.Dottest.Examples.Bank.AccountNumber, Parasoft.Dottest.Examples.Bank.Money.Currency)" />
+				<Item itemRef="10" id="Parasoft.Dottest.Examples.Bank.BankAccount.AddHistory(Parasoft.Dottest.Examples.Bank.Transactions.TransactionBase)" name="BankAccount.AddHistory(Parasoft.Dottest.Examples.Bank.Transactions.TransactionBase)" />
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="15" hashes="1322498496" />
+				<StatCvg itemRef="2" elems="29" hashes="-1927347710" />
+				<StatCvg itemRef="3" elems="25" hashes="1146356692" />
+				<StatCvg itemRef="4" elems="31" hashes="863065907" />
+				<StatCvg itemRef="5" elems="18 22 20 23 14 17 21 19" hashes="1508372603 -1817397307 -1575460731 1508372605 -547545252 520053657 -1252384905 1052121623" />
+				<StatCvg itemRef="6" elems="35" hashes="1004092866" />
+				<StatCvg itemRef="7" elems="27" hashes="1629195772" />
+				<StatCvg itemRef="8" elems="29" hashes="-1927347710" />
+				<StatCvg itemRef="9" elems="41 39" hashes="1508372605 1508372603" />
+				<StatCvg itemRef="10" elems="45 44 46 47" hashes="-867197488 1508372603 1356871372 1508372605" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="4">
+			<Stats>
+				<Item itemRef="1" id="Parasoft.Dottest.Examples.Bank.BankUser.CheckEmail()" name="BankUser.CheckEmail()" />
+				<Item itemRef="2" id="Parasoft.Dottest.Examples.Bank.BankUser.get_SirName()" name="BankUser.get_SirName()" />
+				<Item itemRef="3" id="Parasoft.Dottest.Examples.Bank.BankUser.get_Login()" name="BankUser.get_Login()" />
+				<Item itemRef="4" id="Parasoft.Dottest.Examples.Bank.BankUser.get_Name()" name="BankUser.get_Name()" />
+				<Item itemRef="5" id="Parasoft.Dottest.Examples.Bank.BankUser..ctor(System.String,System.String,System.String,System.String)" name="BankUser.BankUser(System.String, System.String, System.String, System.String)" />
+				<Item itemRef="6" id="Parasoft.Dottest.Examples.Bank.BankUser.set_Email(System.String)" name="BankUser.set_Email(System.String)" />
+				<Item itemRef="7" id="Parasoft.Dottest.Examples.Bank.BankUser.get_Email()" name="BankUser.get_Email()" />
+				<Item itemRef="8" id="Parasoft.Dottest.Examples.Bank.BankUser.get_Password()" name="BankUser.get_Password()" />
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="30 27 29 32 33 28" hashes="-725677699 1508372603 1178724475 14739560 1508372605 -1644930014" />
+				<StatCvg itemRef="2" elems="37" hashes="-1190035742" />
+				<StatCvg itemRef="3" elems="41" hashes="1758299678" />
+				<StatCvg itemRef="4" elems="35" hashes="-1767719062" />
+				<StatCvg itemRef="5" elems="22 16 20 18 17 21 19" hashes="1508372605 -306960963 1812177963 1012905655 1508372603 145206711 872048367" />
+				<StatCvg itemRef="6" elems="24" hashes="-322277982" />
+				<StatCvg itemRef="7" elems="24" hashes="-322277982" />
+				<StatCvg itemRef="8" elems="39" hashes="993513834" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="5">
+			<Stats>
+				<Item itemRef="1" id="Parasoft.Dottest.Examples.Bank.CurrencyExchangeConverter..ctor(Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" name="CurrencyExchangeConverter.CurrencyExchangeConverter(Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" />
+				<Item itemRef="2" id="Parasoft.Dottest.Examples.Bank.CurrencyExchangeConverter.ConvertToMainCurrency(Parasoft.Dottest.Examples.Bank.Money.Currency)" name="CurrencyExchangeConverter.ConvertToMainCurrency(Parasoft.Dottest.Examples.Bank.Money.Currency)" />
+				<Item itemRef="3" id="Parasoft.Dottest.Examples.Bank.CurrencyExchangeConverter.Convert(Parasoft.Dottest.Examples.Bank.Money.Currency,Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" name="CurrencyExchangeConverter.Convert(Parasoft.Dottest.Examples.Bank.Money.Currency, Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" />
+				<Item itemRef="4" id="Parasoft.Dottest.Examples.Bank.CurrencyExchangeConverter.get_Ratios()" name="CurrencyExchangeConverter.get_Ratios()" />
+				<Item itemRef="5" id="Parasoft.Dottest.Examples.Bank.CurrencyExchangeConverter.AddRatio(Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo,System.Single)" name="CurrencyExchangeConverter.AddRatio(Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo, System.Single)" />
+				<Item itemRef="6" id="Parasoft.Dottest.Examples.Bank.CurrencyExchangeConverter.ConvertFromMainCurrency(Parasoft.Dottest.Examples.Bank.Money.Currency,Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" name="CurrencyExchangeConverter.ConvertFromMainCurrency(Parasoft.Dottest.Examples.Bank.Money.Currency, Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" />
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="9 11 14 12 10" hashes="-1182293999 351272599 1220193164 1508372605 1508372603" />
+				<StatCvg itemRef="2" elems="42 36 44 38 46 43 37 39" hashes="1178724475 1508372603 -1750729069 1178724475 1508372605 632386742 -1085142104 -1339918687" />
+				<StatCvg itemRef="3" elems="30 24 26 29 23 31 25 33" hashes="798749777 -2017718128 -1339918687 1178724475 1508372603 -1524880063 1178724475 1508372605" />
+				<StatCvg itemRef="4" elems="68" hashes="-111723551" />
+				<StatCvg itemRef="5" elems="20 18 19" hashes="1508372605 1508372603 -1259574437" />
+				<StatCvg itemRef="6" elems="62 56 64 50 61 52 55 49 57 60 51" hashes="-266531669 1178724475 1508372605 1972313021 544755295 -1046865138 1484682518 1508372603 -1339918687 1178724475 1178724475" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="6">
+			<Stats>
+				<Item itemRef="1" id="Parasoft.Dottest.Examples.Bank.ExampleBank.CreateExampleBank()" name="ExampleBank.CreateExampleBank()" />
+				<Item itemRef="2" id="Parasoft.Dottest.Examples.Bank.ExampleBank..ctor()" name="ExampleBank.ExampleBank()" />
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="26 17 72 54 45 36 27 64 46 19 74 56 38 29 20 66 39 30 21 76 58 31 22 68 50 41 23 60 51 33 79 70 16 52 80 43 34 25 62 44 35" hashes="2039809239 -1869176069 733194562 887140154 939709760 -780776304 1660023329 -530443327 -1034825516 1465239513 -1946729768 1930754815 1846657761 -1561801590 -806139539 -201290715 -1046801370 -1561800629 -36088569 733194562 -280943383 -1561799668 1512128522 1416048705 -1997745841 1368317773 205029641 -167107391 -47444625 785956807 -834500977 -1947653289 1508372603 1902856591 1508372605 1640780899 -1929664593 -1592347677 -166426779 1227778207 -166314817" />
+				<StatCvg itemRef="2" elems="13 11 12" hashes="1508372605 870271562 1508372603" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="7">
+			<Stats>
+				<Item itemRef="1" id="Parasoft.Dottest.Examples.Bank.Comment..ctor()" name="Comment.Comment()" />
+				<Item itemRef="2" id="Parasoft.Dottest.Examples.Bank.ReportGenerator.AddInfo(Parasoft.Dottest.Examples.Bank.Comment)" name="ReportGenerator.AddInfo(Parasoft.Dottest.Examples.Bank.Comment)" />
+				<Item itemRef="3" id="Parasoft.Dottest.Examples.Bank.Comment.set_Text(System.String)" name="Comment.set_Text(System.String)" />
+				<Item itemRef="4" id="Parasoft.Dottest.Examples.Bank.Comment.get_Text()" name="Comment.get_Text()" />
+				<Item itemRef="5" id="Parasoft.Dottest.Examples.Bank.Comment.get_Number()" name="Comment.get_Number()" />
+				<Item itemRef="6" id="Parasoft.Dottest.Examples.Bank.ReportGenerator..ctor(Parasoft.Dottest.Examples.Bank.Bank,System.String)" name="ReportGenerator.ReportGenerator(Parasoft.Dottest.Examples.Bank.Bank, System.String)" />
+				<Item itemRef="7" id="Parasoft.Dottest.Examples.Bank.ReportGenerator.AddUser(Parasoft.Dottest.Examples.Bank.BankUser)" name="ReportGenerator.AddUser(Parasoft.Dottest.Examples.Bank.BankUser)" />
+				<Item itemRef="8" id="Parasoft.Dottest.Examples.Bank.Comment.set_Number(Parasoft.Dottest.Examples.Bank.AccountNumber)" name="Comment.set_Number(Parasoft.Dottest.Examples.Bank.AccountNumber)" />
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="45 46 47" hashes="-496342749 1508372603 1508372605" />
+				<StatCvg itemRef="2" elems="36 37 35" hashes="348168387 1508372605 1508372603" />
+				<StatCvg itemRef="3" elems="49" hashes="-1878836165" />
+				<StatCvg itemRef="4" elems="49" hashes="-1878836165" />
+				<StatCvg itemRef="5" elems="50" hashes="-628080882" />
+				<StatCvg itemRef="6" elems="13 11 15 14 16 17" hashes="289247177 -841018090 1180887099 1508372603 1296493527 1508372605" />
+				<StatCvg itemRef="7" elems="30 22 31 32 23 27 20 28 24 21 25 29" hashes="81780861 -1829983759 1178724477 1508372605 1178724475 2146290397 1508372603 81780859 -580621357 -1765067673 -1303577186 2085459967" />
+				<StatCvg itemRef="8" elems="50" hashes="-628080882" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="8">
+			<Stats>
+				<Item itemRef="1" id="Parasoft.Dottest.Examples.Bank.Transactions.ExternalTransfer.GetKind()" name="ExternalTransfer.GetKind()" />
+				<Item itemRef="2" id="Parasoft.Dottest.Examples.Bank.Transactions.ExternalTransfer.GetConvertedAmount()" name="ExternalTransfer.GetConvertedAmount()" />
+				<Item itemRef="3" id="Parasoft.Dottest.Examples.Bank.Transactions.ExternalTransfer.ApplyImpl()" name="ExternalTransfer.ApplyImpl()" />
+				<Item itemRef="4" id="Parasoft.Dottest.Examples.Bank.Transactions.ExternalTransfer..ctor(Parasoft.Dottest.Examples.Bank.AccountNumber,Parasoft.Dottest.Examples.Bank.Money.Currency,System.DateTime)" name="ExternalTransfer.ExternalTransfer(Parasoft.Dottest.Examples.Bank.AccountNumber, Parasoft.Dottest.Examples.Bank.Money.Currency, System.DateTime)" />
+				<Item itemRef="5" id="Parasoft.Dottest.Examples.Bank.Transactions.ExternalTransfer.CheckBalance(Parasoft.Dottest.Examples.Bank.Money.Currency,Parasoft.Dottest.Examples.Bank.Money.Currency)" name="ExternalTransfer.CheckBalance(Parasoft.Dottest.Examples.Bank.Money.Currency, Parasoft.Dottest.Examples.Bank.Money.Currency)" />
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="25 26 24" hashes="2057910919 1508372605 1508372603" />
+				<StatCvg itemRef="2" elems="38 36 37" hashes="1508372605 1508372603 -822824796" />
+				<StatCvg itemRef="3" elems="29 30" hashes="1508372603 -1153956460" />
+				<StatCvg itemRef="4" elems="11 9 10 14 12 15" hashes="761001004 1397853613 1508372603 1178724477 1178724475 1508372605" />
+				<StatCvg itemRef="5" elems="18 20 21" hashes="1508372603 -817364611 1508372605" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="9">
+			<Stats>
+				<Item itemRef="1" id="Parasoft.Dottest.Examples.Bank.Transactions.IncommingTransfer.GetConvertedAmount()" name="IncommingTransfer.GetConvertedAmount()" />
+				<Item itemRef="2" id="Parasoft.Dottest.Examples.Bank.Transactions.IncommingTransfer..ctor(Parasoft.Dottest.Examples.Bank.BankAccount,Parasoft.Dottest.Examples.Bank.Money.Currency,System.DateTime,Parasoft.Dottest.Examples.Bank.CurrencyExchangeConverter)" name="IncommingTransfer.IncommingTransfer(Parasoft.Dottest.Examples.Bank.BankAccount, Parasoft.Dottest.Examples.Bank.Money.Currency, System.DateTime, Parasoft.Dottest.Examples.Bank.CurrencyExchangeConverter)" />
+				<Item itemRef="3" id="Parasoft.Dottest.Examples.Bank.Transactions.IncommingTransfer.GetKind()" name="IncommingTransfer.GetKind()" />
+				<Item itemRef="4" id="Parasoft.Dottest.Examples.Bank.Transactions.IncommingTransfer.CheckBalance(Parasoft.Dottest.Examples.Bank.Money.Currency,Parasoft.Dottest.Examples.Bank.Money.Currency)" name="IncommingTransfer.CheckBalance(Parasoft.Dottest.Examples.Bank.Money.Currency, Parasoft.Dottest.Examples.Bank.Money.Currency)" />
+				<Item itemRef="5" id="Parasoft.Dottest.Examples.Bank.Transactions.IncommingTransfer.ApplyImpl()" name="IncommingTransfer.ApplyImpl()" />
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="34 35 33" hashes="1587171424 1508372605 1508372603" />
+				<StatCvg itemRef="2" elems="14 11 12" hashes="1508372605 -806726878 1508372603" />
+				<StatCvg itemRef="3" elems="22 23 24" hashes="1508372603 -1768262427 1508372605" />
+				<StatCvg itemRef="4" elems="18 19 17" hashes="-817364611 1508372605 1508372603" />
+				<StatCvg itemRef="5" elems="27 29 30 28" hashes="1508372603 791865502 1508372605 882705065" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="10">
+			<Stats>
+				<Item itemRef="1" id="Parasoft.Dottest.Examples.Bank.Transactions.OutgoingTransfer..ctor(Parasoft.Dottest.Examples.Bank.BankAccount,Parasoft.Dottest.Examples.Bank.Money.Currency,Parasoft.Dottest.Examples.Bank.Money.Currency,System.DateTime,Parasoft.Dottest.Examples.Bank.CurrencyExchangeConverter)" name="OutgoingTransfer.OutgoingTransfer(Parasoft.Dottest.Examples.Bank.BankAccount, Parasoft.Dottest.Examples.Bank.Money.Currency, Parasoft.Dottest.Examples.Bank.Money.Currency, System.DateTime, Parasoft.Dottest.Examples.Bank.CurrencyExchangeConverter)" />
+				<Item itemRef="2" id="Parasoft.Dottest.Examples.Bank.Transactions.OutgoingTransfer.CheckBalance(Parasoft.Dottest.Examples.Bank.Money.Currency,Parasoft.Dottest.Examples.Bank.Money.Currency)" name="OutgoingTransfer.CheckBalance(Parasoft.Dottest.Examples.Bank.Money.Currency, Parasoft.Dottest.Examples.Bank.Money.Currency)" />
+				<Item itemRef="3" id="Parasoft.Dottest.Examples.Bank.Transactions.OutgoingTransfer.ApplyImpl()" name="OutgoingTransfer.ApplyImpl()" />
+				<Item itemRef="4" id="Parasoft.Dottest.Examples.Bank.Transactions.OutgoingTransfer.GetConvertedAmount()" name="OutgoingTransfer.GetConvertedAmount()" />
+				<Item itemRef="5" id="Parasoft.Dottest.Examples.Bank.Transactions.OutgoingTransfer.GetKind()" name="OutgoingTransfer.GetKind()" />
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="12 13 15" hashes="-1902556311 1508372603 1508372605" />
+				<StatCvg itemRef="2" elems="20 18 19" hashes="1508372605 1508372603 620393737" />
+				<StatCvg itemRef="3" elems="29 30 28" hashes="711509660 1508372605 1508372603" />
+				<StatCvg itemRef="4" elems="34 35 33" hashes="-822824796 1508372605 1508372603" />
+				<StatCvg itemRef="5" elems="24 25 23" hashes="2013727814 1508372605 1508372603" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="11">
+			<Stats>
+				<Item itemRef="1" id="Parasoft.Dottest.Examples.Bank.Transactions.TransactionBase.get_Account()" name="TransactionBase.get_Account()" />
+				<Item itemRef="2" id="Parasoft.Dottest.Examples.Bank.Transactions.TransactionBase..ctor(Parasoft.Dottest.Examples.Bank.BankAccount,Parasoft.Dottest.Examples.Bank.Money.Currency,System.DateTime,Parasoft.Dottest.Examples.Bank.CurrencyExchangeConverter)" name="TransactionBase.TransactionBase(Parasoft.Dottest.Examples.Bank.BankAccount, Parasoft.Dottest.Examples.Bank.Money.Currency, System.DateTime, Parasoft.Dottest.Examples.Bank.CurrencyExchangeConverter)" />
+				<Item itemRef="3" id="Parasoft.Dottest.Examples.Bank.Transactions.TransactionBase.get_Date()" name="TransactionBase.get_Date()" />
+				<Item itemRef="4" id="Parasoft.Dottest.Examples.Bank.Transactions.TransactionBase.get_Fee()" name="TransactionBase.get_Fee()" />
+				<Item itemRef="5" id="Parasoft.Dottest.Examples.Bank.Transactions.TransactionBase.Apply()" name="TransactionBase.Apply()" />
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="43" hashes="2015657732" />
+				<StatCvg itemRef="2" elems="17 20 14 18 12 16 15 19" hashes="-2100712719 1508372605 -535869097 -1662744553 416360220 1069571747 1508372603 1855855613" />
+				<StatCvg itemRef="3" elems="41" hashes="889683912" />
+				<StatCvg itemRef="4" elems="47" hashes="864815248" />
+				<StatCvg itemRef="5" elems="30 26 34 23 31 28 32 24 25 29 35" hashes="-68462062 1458653451 1584030926 1508372603 -1728905244 1961550294 759504197 1440394962 1178724475 1863251468 1508372605" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="12">
+			<Stats>
+				<Item itemRef="1" id="Parasoft.Dottest.Examples.Bank.Transactions.TransferTransaction..ctor(Parasoft.Dottest.Examples.Bank.BankAccount,Parasoft.Dottest.Examples.Bank.Money.Currency,Parasoft.Dottest.Examples.Bank.Money.Currency,System.DateTime,Parasoft.Dottest.Examples.Bank.CurrencyExchangeConverter)" name="TransferTransaction.TransferTransaction(Parasoft.Dottest.Examples.Bank.BankAccount, Parasoft.Dottest.Examples.Bank.Money.Currency, Parasoft.Dottest.Examples.Bank.Money.Currency, System.DateTime, Parasoft.Dottest.Examples.Bank.CurrencyExchangeConverter)" />
+				<Item itemRef="2" id="Parasoft.Dottest.Examples.Bank.Transactions.TransferTransaction.GetAmount()" name="TransferTransaction.GetAmount()" />
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="15 16 13 14" hashes="-1688143209 1508372605 680420277 1508372603" />
+				<StatCvg itemRef="2" elems="20 21 19" hashes="1990509204 1508372605 1508372603" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="13">
+			<Stats>
+				<Item itemRef="1" id="Parasoft.Dottest.Examples.Bank.Money.Currency..ctor(Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" name="Currency.Currency(Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" />
+				<Item itemRef="2" id="Parasoft.Dottest.Examples.Bank.Money.Currency.op_Subtraction(Parasoft.Dottest.Examples.Bank.Money.Currency,Parasoft.Dottest.Examples.Bank.Money.Currency)" name="Currency.op_Subtraction(Parasoft.Dottest.Examples.Bank.Money.Currency, Parasoft.Dottest.Examples.Bank.Money.Currency)" />
+				<Item itemRef="3" id="Parasoft.Dottest.Examples.Bank.Money.Currency.get_CurrencyInfo()" name="Currency.get_CurrencyInfo()" />
+				<Item itemRef="4" id="Parasoft.Dottest.Examples.Bank.Money.Currency.GetValueWithSign(System.Globalization.CultureInfo)" name="Currency.GetValueWithSign(System.Globalization.CultureInfo)" />
+				<Item itemRef="5" id="Parasoft.Dottest.Examples.Bank.Money.Currency.IsZero()" name="Currency.IsZero()" />
+				<Item itemRef="6" id="Parasoft.Dottest.Examples.Bank.Money.Currency.op_Addition(Parasoft.Dottest.Examples.Bank.Money.Currency,Parasoft.Dottest.Examples.Bank.Money.Currency)" name="Currency.op_Addition(Parasoft.Dottest.Examples.Bank.Money.Currency, Parasoft.Dottest.Examples.Bank.Money.Currency)" />
+				<Item itemRef="7" id="Parasoft.Dottest.Examples.Bank.Money.Currency.Equals(System.Object)" name="Currency.Equals(System.Object)" />
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="13 11 10 12" hashes="1508372605 1508372603 1859659182 568156983" />
+				<StatCvg itemRef="2" elems="42 36 38 41 44 35 37" hashes="666262518 -1830597339 -393537979 1178724475 1508372605 1508372603 1178724475" />
+				<StatCvg itemRef="3" elems="15" hashes="1629195772" />
+				<StatCvg itemRef="4" elems="20 18 19" hashes="1508372605 1508372603 1048522281" />
+				<StatCvg itemRef="5" elems="49 50 48 47" hashes="-22214497 1508372605 -944160458 1508372603" />
+				<StatCvg itemRef="6" elems="30 24 26 29 32 23 25" hashes="666262518 -1830597339 2003439800 1178724475 1508372605 1508372603 1178724475" />
+				<StatCvg itemRef="7" elems="61 62 63" hashes="1508372603 1195879126 1508372605" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="14">
+			<Stats>
+				<Item itemRef="1" id="Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo.get_Notation()" name="CurrencyInfo.get_Notation()" />
+				<Item itemRef="2" id="Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo.get_Sign()" name="CurrencyInfo.get_Sign()" />
+				<Item itemRef="3" id="Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo.get_Code()" name="CurrencyInfo.get_Code()" />
+				<Item itemRef="4" id="Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo..ctor(System.String,System.String,System.String)" name="CurrencyInfo.CurrencyInfo(System.String, System.String, System.String)" />
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="25" hashes="-1886360694" />
+				<StatCvg itemRef="2" elems="27" hashes="969569322" />
+				<StatCvg itemRef="3" elems="23" hashes="-846973398" />
+				<StatCvg itemRef="4" elems="11 13 20 15 18 21 12 16 14 19" hashes="-1289972614 -1037744613 415889431 236826618 1964351735 1508372605 1508372603 1178724477 1178724475 -2030646537" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="15">
+			<Stats>
+				<Item itemRef="1" id="Parasoft.Dottest.Examples.Bank.Money.CurrencyProvider.GetCurrency(System.String,Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" name="CurrencyProvider.GetCurrency(System.String, Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" />
+				<Item itemRef="2" id="Parasoft.Dottest.Examples.Bank.Money.CurrencyProvider.GetCurrency(System.String,Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo,System.Globalization.CultureInfo)" name="CurrencyProvider.GetCurrency(System.String, Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo, System.Globalization.CultureInfo)" />
+				<Item itemRef="3" id="Parasoft.Dottest.Examples.Bank.Money.CurrencyProvider.Parse(System.String,Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" name="CurrencyProvider.Parse(System.String, Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" />
+				<Item itemRef="4" id="Parasoft.Dottest.Examples.Bank.Money.CurrencyProvider.GetZero(Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" name="CurrencyProvider.GetZero(Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" />
+				<Item itemRef="5" id="Parasoft.Dottest.Examples.Bank.Money.CurrencyProvider.GetCurrency(System.Decimal,Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" name="CurrencyProvider.GetCurrency(System.Decimal, Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" />
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="18 19 17" hashes="608843144 1508372605 1508372603" />
+				<StatCvg itemRef="2" elems="22 36 33 23 31 29 35" hashes="1508372603 1508372605 -1588203748 653259192 -1432789255 -1096293608 -822824796" />
+				<StatCvg itemRef="3" elems="54 58 62 65 61 63 57 69 55 60 64 67" hashes="1508372603 -239752159 -447563932 1178724477 1178724475 770945305 -803650371 1508372605 -1421762234 -360068170 1285930120 654136624" />
+				<StatCvg itemRef="4" elems="13 14 12" hashes="1524773175 1508372605 1508372603" />
+				<StatCvg itemRef="5" elems="40 48 46 39 50 51" hashes="653259192 1623314137 -483141862 1508372603 -822824796 1508372605" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="16">
+			<Stats>
+				<Item itemRef="1" id="Parasoft.Dottest.Examples.Bank.Money.CurrencyWithCents.Parse(System.String,Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo,System.Globalization.CultureInfo)" name="CurrencyWithCents.Parse(System.String, Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo, System.Globalization.CultureInfo)" />
+				<Item itemRef="2" id="Parasoft.Dottest.Examples.Bank.Money.CurrencyWithCents..ctor(System.Int32,System.Int32,Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" name="CurrencyWithCents.CurrencyWithCents(System.Int32, System.Int32, Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" />
+				<Item itemRef="3" id="Parasoft.Dottest.Examples.Bank.Money.CurrencyWithCents.FromDecimal(System.Decimal,Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" name="CurrencyWithCents.FromDecimal(System.Decimal, Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" />
+				<Item itemRef="4" id="Parasoft.Dottest.Examples.Bank.Money.CurrencyWithCents.Subtract(Parasoft.Dottest.Examples.Bank.Money.Currency)" name="CurrencyWithCents.Subtract(Parasoft.Dottest.Examples.Bank.Money.Currency)" />
+				<Item itemRef="5" id="Parasoft.Dottest.Examples.Bank.Money.CurrencyWithCents.GetDecimalValue()" name="CurrencyWithCents.GetDecimalValue()" />
+				<Item itemRef="6" id="Parasoft.Dottest.Examples.Bank.Money.CurrencyWithCents.Add(Parasoft.Dottest.Examples.Bank.Money.Currency)" name="CurrencyWithCents.Add(Parasoft.Dottest.Examples.Bank.Money.Currency)" />
+				<Item itemRef="7" id="Parasoft.Dottest.Examples.Bank.Money.CurrencyWithCents.ToString()" name="CurrencyWithCents.ToString()" />
+				<Item itemRef="8" id="Parasoft.Dottest.Examples.Bank.Money.CurrencyWithCents.GetValue(System.Globalization.CultureInfo)" name="CurrencyWithCents.GetValue(System.Globalization.CultureInfo)" />
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="22 26 24 29 27 30 25 23 28" hashes="1508372603 1019518542 -1852873715 -1311686624 -2116925477 1508372605 -835082585 -1797383090 282217802" />
+				<StatCvg itemRef="2" elems="17 15 16 18 19" hashes="-1412605431 1714772793 1508372603 990854225 1508372605" />
+				<StatCvg itemRef="3" elems="36 37 35" hashes="-925921365 1508372605 1508372603" />
+				<StatCvg itemRef="4" elems="58 59 57 56" hashes="41259219 1508372605 835181849 1508372603" />
+				<StatCvg itemRef="5" elems="45 46 47" hashes="1508372603 199200851 1508372605" />
+				<StatCvg itemRef="6" elems="50 52 53 51" hashes="1508372603 1114097301 1508372605 -125582021" />
+				<StatCvg itemRef="7" elems="41 42 40" hashes="1877361385 1508372605 1508372603" />
+				<StatCvg itemRef="8" elems="63 62 67" hashes="-1838688748 1508372603 1508372605" />
+			</Static>
+		</CvgData>
+		<CvgData locRef="17">
+			<Stats>
+				<Item itemRef="1" id="Parasoft.Dottest.Examples.Bank.Money.CurrencyWithNoCents.Parse(System.String,Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo,System.Globalization.CultureInfo)" name="CurrencyWithNoCents.Parse(System.String, Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo, System.Globalization.CultureInfo)" />
+				<Item itemRef="2" id="Parasoft.Dottest.Examples.Bank.Money.CurrencyWithNoCents.GetDecimalValue()" name="CurrencyWithNoCents.GetDecimalValue()" />
+				<Item itemRef="3" id="Parasoft.Dottest.Examples.Bank.Money.CurrencyWithNoCents..ctor(System.Int32,Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" name="CurrencyWithNoCents.CurrencyWithNoCents(System.Int32, Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" />
+				<Item itemRef="4" id="Parasoft.Dottest.Examples.Bank.Money.CurrencyWithNoCents.Add(Parasoft.Dottest.Examples.Bank.Money.Currency)" name="CurrencyWithNoCents.Add(Parasoft.Dottest.Examples.Bank.Money.Currency)" />
+				<Item itemRef="5" id="Parasoft.Dottest.Examples.Bank.Money.CurrencyWithNoCents.GetValue(System.Globalization.CultureInfo)" name="CurrencyWithNoCents.GetValue(System.Globalization.CultureInfo)" />
+				<Item itemRef="6" id="Parasoft.Dottest.Examples.Bank.Money.CurrencyWithNoCents.FromDecimal(System.Decimal,Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" name="CurrencyWithNoCents.FromDecimal(System.Decimal, Parasoft.Dottest.Examples.Bank.Money.CurrencyInfo)" />
+				<Item itemRef="7" id="Parasoft.Dottest.Examples.Bank.Money.CurrencyWithNoCents.Subtract(Parasoft.Dottest.Examples.Bank.Money.Currency)" name="CurrencyWithNoCents.Subtract(Parasoft.Dottest.Examples.Bank.Money.Currency)" />
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="17 18 16 15" hashes="622700894 1508372605 59597140 1508372603" />
+				<StatCvg itemRef="2" elems="27 28 26" hashes="-886483749 1508372605 1508372603" />
+				<StatCvg itemRef="3" elems="11 9 12 10" hashes="-1203668065 1038772202 1508372605 1508372603" />
+				<StatCvg itemRef="4" elems="33 34 32 31" hashes="1651152690 1508372605 1140434267 1508372603" />
+				<StatCvg itemRef="5" elems="45 43 44" hashes="1508372605 1508372603 633424146" />
+				<StatCvg itemRef="6" elems="22 23 21" hashes="-99415288 1508372605 1508372603" />
+				<StatCvg itemRef="7" elems="38 37 39 40" hashes="1845852409 1508372603 -1942214732 1508372605" />
+			</Static>
+		</CvgData>
+	</CoverageData>
+</Coverage>
