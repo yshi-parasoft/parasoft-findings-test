@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+   <testsuite name="TestAssets.PB-Bookstore1_tst"
+               tests="31"
+               id="1"
+               package=""
+               time="0.734"
+               hostname="yshi-laptop"
+               timestamp="2024-01-05T14:04:50"
+               failures="31"
+               errors="0">
+      <properties/>
+      <testcase name="Test Suite: Test Suite/Test Suite: WSDL Tests/Test 1: Schema Validity"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.046">
+         <failure message="Connection refused: connect" type="Failure">Source: http://localhost:8090/parabank/services/store-01?wsdl</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Test Suite: WSDL Tests/Test 2: Semantic Validity"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.031">
+         <failure message="Invalid WSDL. Connection refused: connect" type="Failure"/>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Test Suite: WSDL Tests/Test 3: WS-I Interoperability"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.023">
+         <failure message="Connection refused: connect" type="Failure">com.parasoft.wsi.WSIException: java.net.ConnectException: Connection refused: connect&#xD;
+	at webtool.soap.wsi.MetadataUtil.getContent(MetadataUtil.java:119)&#xD;
+	at webtool.soap.wsi.MetadataUtil.buildMetadata(MetadataUtil.java:61)&#xD;
+	at webtool.soap.wsi.MetadataUtil.buildMetadata(MetadataUtil.java:49)&#xD;
+	at webtool.soap.wsi.MetadataUtil.buildMetadata(MetadataUtil.java:41)&#xD;
+	at webtool.soap.wsi.ScriptBasedAnalyzer.doAnalysis(ScriptBasedAnalyzer.java:48)&#xD;
+	at webtool.soap.wsi.AbstractBPAnalyzer.doAnalysis(AbstractBPAnalyzer.java:46)&#xD;
+	at webtool.soap.wsi.WSITool.doApply(WSITool.java:242)&#xD;
+	at webtool.tool.WebTool.applyTool(WebTool.java:188)&#xD;
+	at com.parasoft.tool.Tool.apply(Tool.java:352)&#xD;
+	at com.parasoft.tool.Tool.getApplyResult(Tool.java:364)&#xD;
+	at webtool.test.ToolTest.run(ToolTest.java:900)&#xD;
+	at webtool.test.Test$4.loop(Test.java:943)&#xD;
+	at webtool.test.execution.CompositeExecutionLoop.loop(CompositeExecutionLoop.java:60)&#xD;
+	at webtool.test.execution.CompositeExecutionLoop.loop(CompositeExecutionLoop.java:69)&#xD;
+	at webtool.test.execution.CompositeExecutionLoop.loop(CompositeExecutionLoop.java:69)&#xD;
+	at webtool.test.execution.CompositeExecutionLoop.loop(CompositeExecutionLoop.java:69)&#xD;
+	at webtool.test.Test.run(Test.java:1105)&#xD;
+	at webtool.test.TestExecutor.run(TestExecutor.java:241)&#xD;
+	at com.parasoft.ptest.testcases.web.WebTestExecution.doRun(WebTestExecution.java:75)&#xD;
+	at com.parasoft.ptest.testcases.web.AbstractWebTestRunnable.runSingleTest(AbstractWebTestRunnable.java:308)&#xD;
+	at com.parasoft.ptest.testcases.web.AbstractWebTestRunnable.run(AbstractWebTestRunnable.java:177)&#xD;
+	at com.parasoft.ptest.execution.api.web.WebExecutionRunnable.launch(WebExecutionRunnable.java:594)&#xD;
+	at com.parasoft.ptest.execution.api.runnable.AbstractExecutionRunnable.launch(AbstractExecutionRunnable.java:424)&#xD;
+	at com.parasoft.ptest.execution.api.runnable.AbstractExecutionRunnable.runExecution(AbstractExecutionRunnable.java:284)&#xD;
+	at com.parasoft.ptest.execution.api.runnable.AbstractExecutionRunnable.run0(AbstractExecutionRunnable.java:174)&#xD;
+	at com.parasoft.ptest.checkers.api.run.AbstractRunnable.run(AbstractRunnable.java:213)&#xD;
+	at com.parasoft.ptest.checkers.api.run.CategoryRunnable.run(CategoryRunnable.java:254)&#xD;
+	at com.parasoft.ptest.checkers.api.run.ConfigRunner.runCheckerCategories(ConfigRunner.java:399)&#xD;
+	at com.parasoft.ptest.checkers.api.run.ConfigRunner.runConfig(ConfigRunner.java:231)&#xD;
+	at com.parasoft.ptest.checkers.api.cli8.AbstractCliRunnable.runConfig(AbstractCliRunnable.java:869)&#xD;
+	at com.parasoft.ptest.checkers.api.cli8.AbstractCliRunnable.run(AbstractCliRunnable.java:450)&#xD;
+	at com.parasoft.ptest.checkers.api.cli8.AbstractCliRunnable.run(AbstractCliRunnable.java:255)&#xD;
+	at com.parasoft.ptest.testcases.eclipse.core.web.internal.cli.EclipseWebTestCliRunnable.run(EclipseWebTestCliRunnable.java:80)&#xD;
+	at com.parasoft.ptest.checkers.eclipse.core.cli8.EclipseCliRunnable.start(EclipseCliRunnable.java:133)&#xD;
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)&#xD;
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)&#xD;
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)&#xD;
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)&#xD;
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)&#xD;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xD;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#xD;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xD;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#xD;
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)&#xD;
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)&#xD;
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)&#xD;
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)&#xD;
+Caused by: java.net.ConnectException: Connection refused: connect&#xD;
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)&#xD;
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)&#xD;
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)&#xD;
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)&#xD;
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)&#xD;
+	at java.base/java.net.Socket.connect(Socket.java:615)&#xD;
+	at java.base/java.net.Socket.connect(Socket.java:563)&#xD;
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)&#xD;
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:509)&#xD;
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:604)&#xD;
+	at java.base/sun.net.www.http.HttpClient.&lt;init&gt;(HttpClient.java:277)&#xD;
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:376)&#xD;
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:397)&#xD;
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1258)&#xD;
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1192)&#xD;
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1086)&#xD;
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1020)&#xD;
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1597)&#xD;
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1525)&#xD;
+	at com.parasoft.net.URLConnectionHandle.getInputStream(URLConnectionHandle.java:56)&#xD;
+	at webtool.net.URLConnectionUtil.createInputStream(URLConnectionUtil.java:39)&#xD;
+	at webtool.soap.wsi.MetadataUtil.getContent(MetadataUtil.java:116)&#xD;
+	... 46 more</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Test Suite: WSDL Tests/Test 4: WSDL Regression"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.056">
+         <failure message="Connection refused: connect" type="Failure">A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Test Suite: CartServicePort/Test 1: addItemToCart"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.079">
+         <failure message="Multiple errors reported" type="Failure">Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.
+
+Invalid WSDL. Connection refused: connect</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Test Suite: CartServicePort/Test 2: addNewItemToInventory"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.016">
+         <failure message="Multiple errors reported" type="Failure">Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.
+
+Invalid WSDL. Connection refused: connect</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Test Suite: CartServicePort/Test 3: getItemById"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.015">
+         <failure message="Multiple errors reported" type="Failure">Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.
+
+Invalid WSDL. Connection refused: connect</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Test Suite: CartServicePort/Test 4: getItemByTitle"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.016">
+         <failure message="Multiple errors reported" type="Failure">Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.
+
+Invalid WSDL. Connection refused: connect</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Test Suite: CartServicePort/Test 5: getItemsInCart"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.018">
+         <failure message="Multiple errors reported" type="Failure">Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.
+
+Invalid WSDL. Connection refused: connect</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Test Suite: CartServicePort/Test 6: submitOrder"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.018">
+         <failure message="Multiple errors reported" type="Failure">Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.
+
+Invalid WSDL. Connection refused: connect</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Test Suite: CartServicePort/Test 7: updateItemInCart"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.012">
+         <failure message="Multiple errors reported" type="Failure">Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.
+
+Invalid WSDL. Connection refused: connect</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Test Suite: Test Suite (Book Search)/Test 1: getItemByTitle[Keywords (row 1)]"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.016">
+         <failure message="Multiple errors reported" type="Failure">DataSource: Keywords (row 1): Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.
+
+DataSource: Keywords (row 1): Invalid WSDL. Connection refused: connect</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Test Suite: Test Suite (Book Search)/Test 1: getItemByTitle[Keywords (row 2)]"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.031">
+         <failure message="Multiple errors reported" type="Failure">DataSource: Keywords (row 2): Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.
+
+DataSource: Keywords (row 2): Invalid WSDL. Connection refused: connect</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Test Suite: Test Suite (Book Search)/Test 1: getItemByTitle[Keywords (row 3)]"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.023">
+         <failure message="Multiple errors reported" type="Failure">DataSource: Keywords (row 3): Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.
+
+DataSource: Keywords (row 3): Invalid WSDL. Connection refused: connect</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Test Suite: Test Suite (Book Search)/Test 1: getItemByTitle[Keywords (row 4)]"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.041">
+         <failure message="Multiple errors reported" type="Failure">DataSource: Keywords (row 4): Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.
+
+DataSource: Keywords (row 4): Invalid WSDL. Connection refused: connect</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Scenario: Test Suite (Book Buyer)/Test 1: getItemByTitle[Keywords (row 1)]"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.019">
+         <failure message="Multiple errors reported" type="Failure">DataSource: Keywords (row 1): Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.
+
+DataSource: Keywords (row 1): Invalid WSDL. Connection refused: connect</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Scenario: Test Suite (Book Buyer)/Test 1: getItemByTitle[Keywords (row 2)]"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.016">
+         <failure message="Multiple errors reported" type="Failure">DataSource: Keywords (row 2): Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.
+
+DataSource: Keywords (row 2): Invalid WSDL. Connection refused: connect</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Scenario: Test Suite (Book Buyer)/Test 1: getItemByTitle[Keywords (row 3)]"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.024">
+         <failure message="Multiple errors reported" type="Failure">DataSource: Keywords (row 3): Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.
+
+DataSource: Keywords (row 3): Invalid WSDL. Connection refused: connect</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Scenario: Test Suite (Book Buyer)/Test 1: getItemByTitle[Keywords (row 4)]"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.019">
+         <failure message="Multiple errors reported" type="Failure">DataSource: Keywords (row 4): Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.
+
+DataSource: Keywords (row 4): Invalid WSDL. Connection refused: connect</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Scenario: Test Suite (Book Buyer)/Test 2: addItemToCart[Keywords (row 1)]"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.018">
+         <failure message="Multiple errors reported" type="Failure">DataSource: Keywords (row 1): Invalid WSDL. Connection refused: connect
+
+DataSource: Keywords (row 1): [itemId] No Data Source column named Test 1: id[1]
+This error often occurs when a column in the data source is renamed or removed.  This error can also occur when a column that is extracted via various Data Bank tools (e.g., XML Data Bank, Browser Data Bank) is renamed or removed.  Please verify whether the column still exists in the data source or the Data Bank tool.  When there are multiple data sources in the test suite, verify the data source specified in the Data Source drop down box in the upper right hand corner of the UI.  If the column has been renamed or removed, please select a new column in the UI.
+
+If the column is extracted via a Data Bank tool, also verify whether the Data Bank tool was executed and whether the Data Bank tool received the input that it expected.
+
+DataSource: Keywords (row 1): No Data Source column named Test 1: id[1]
+This error often occurs when a column in the data source is renamed or removed.  This error can also occur when a column that is extracted via various Data Bank tools (e.g., XML Data Bank, Browser Data Bank) is renamed or removed.  Please verify whether the column still exists in the data source or the Data Bank tool.  When there are multiple data sources in the test suite, verify the data source specified in the Data Source drop down box in the upper right hand corner of the UI.  If the column has been renamed or removed, please select a new column in the UI.
+
+If the column is extracted via a Data Bank tool, also verify whether the Data Bank tool was executed and whether the Data Bank tool received the input that it expected.
+
+DataSource: Keywords (row 1): Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Scenario: Test Suite (Book Buyer)/Test 2: addItemToCart[Keywords (row 2)]"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.015">
+         <failure message="Multiple errors reported" type="Failure">DataSource: Keywords (row 2): Invalid WSDL. Connection refused: connect
+
+DataSource: Keywords (row 2): [itemId] No Data Source column named Test 1: id[1]
+This error often occurs when a column in the data source is renamed or removed.  This error can also occur when a column that is extracted via various Data Bank tools (e.g., XML Data Bank, Browser Data Bank) is renamed or removed.  Please verify whether the column still exists in the data source or the Data Bank tool.  When there are multiple data sources in the test suite, verify the data source specified in the Data Source drop down box in the upper right hand corner of the UI.  If the column has been renamed or removed, please select a new column in the UI.
+
+If the column is extracted via a Data Bank tool, also verify whether the Data Bank tool was executed and whether the Data Bank tool received the input that it expected.
+
+DataSource: Keywords (row 2): No Data Source column named Test 1: id[1]
+This error often occurs when a column in the data source is renamed or removed.  This error can also occur when a column that is extracted via various Data Bank tools (e.g., XML Data Bank, Browser Data Bank) is renamed or removed.  Please verify whether the column still exists in the data source or the Data Bank tool.  When there are multiple data sources in the test suite, verify the data source specified in the Data Source drop down box in the upper right hand corner of the UI.  If the column has been renamed or removed, please select a new column in the UI.
+
+If the column is extracted via a Data Bank tool, also verify whether the Data Bank tool was executed and whether the Data Bank tool received the input that it expected.
+
+DataSource: Keywords (row 2): Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Scenario: Test Suite (Book Buyer)/Test 2: addItemToCart[Keywords (row 3)]"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.016">
+         <failure message="Multiple errors reported" type="Failure">DataSource: Keywords (row 3): Invalid WSDL. Connection refused: connect
+
+DataSource: Keywords (row 3): [itemId] No Data Source column named Test 1: id[1]
+This error often occurs when a column in the data source is renamed or removed.  This error can also occur when a column that is extracted via various Data Bank tools (e.g., XML Data Bank, Browser Data Bank) is renamed or removed.  Please verify whether the column still exists in the data source or the Data Bank tool.  When there are multiple data sources in the test suite, verify the data source specified in the Data Source drop down box in the upper right hand corner of the UI.  If the column has been renamed or removed, please select a new column in the UI.
+
+If the column is extracted via a Data Bank tool, also verify whether the Data Bank tool was executed and whether the Data Bank tool received the input that it expected.
+
+DataSource: Keywords (row 3): No Data Source column named Test 1: id[1]
+This error often occurs when a column in the data source is renamed or removed.  This error can also occur when a column that is extracted via various Data Bank tools (e.g., XML Data Bank, Browser Data Bank) is renamed or removed.  Please verify whether the column still exists in the data source or the Data Bank tool.  When there are multiple data sources in the test suite, verify the data source specified in the Data Source drop down box in the upper right hand corner of the UI.  If the column has been renamed or removed, please select a new column in the UI.
+
+If the column is extracted via a Data Bank tool, also verify whether the Data Bank tool was executed and whether the Data Bank tool received the input that it expected.
+
+DataSource: Keywords (row 3): Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Scenario: Test Suite (Book Buyer)/Test 2: addItemToCart[Keywords (row 4)]"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.020">
+         <failure message="Multiple errors reported" type="Failure">DataSource: Keywords (row 4): Invalid WSDL. Connection refused: connect
+
+DataSource: Keywords (row 4): [itemId] No Data Source column named Test 1: id[1]
+This error often occurs when a column in the data source is renamed or removed.  This error can also occur when a column that is extracted via various Data Bank tools (e.g., XML Data Bank, Browser Data Bank) is renamed or removed.  Please verify whether the column still exists in the data source or the Data Bank tool.  When there are multiple data sources in the test suite, verify the data source specified in the Data Source drop down box in the upper right hand corner of the UI.  If the column has been renamed or removed, please select a new column in the UI.
+
+If the column is extracted via a Data Bank tool, also verify whether the Data Bank tool was executed and whether the Data Bank tool received the input that it expected.
+
+DataSource: Keywords (row 4): No Data Source column named Test 1: id[1]
+This error often occurs when a column in the data source is renamed or removed.  This error can also occur when a column that is extracted via various Data Bank tools (e.g., XML Data Bank, Browser Data Bank) is renamed or removed.  Please verify whether the column still exists in the data source or the Data Bank tool.  When there are multiple data sources in the test suite, verify the data source specified in the Data Source drop down box in the upper right hand corner of the UI.  If the column has been renamed or removed, please select a new column in the UI.
+
+If the column is extracted via a Data Bank tool, also verify whether the Data Bank tool was executed and whether the Data Bank tool received the input that it expected.
+
+DataSource: Keywords (row 4): Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Scenario: Test Suite (Book Buyer)/Test 3: getItemsInCart[Keywords (row 1)]"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.010">
+         <failure message="Multiple errors reported" type="Failure">DataSource: Keywords (row 1): Invalid WSDL. Connection refused: connect
+
+DataSource: Keywords (row 1): [cartId] No Data Source column named Test 2: cartId[1]
+This error often occurs when a column in the data source is renamed or removed.  This error can also occur when a column that is extracted via various Data Bank tools (e.g., XML Data Bank, Browser Data Bank) is renamed or removed.  Please verify whether the column still exists in the data source or the Data Bank tool.  When there are multiple data sources in the test suite, verify the data source specified in the Data Source drop down box in the upper right hand corner of the UI.  If the column has been renamed or removed, please select a new column in the UI.
+
+If the column is extracted via a Data Bank tool, also verify whether the Data Bank tool was executed and whether the Data Bank tool received the input that it expected.
+
+DataSource: Keywords (row 1): No Data Source column named Test 2: cartId[1]
+This error often occurs when a column in the data source is renamed or removed.  This error can also occur when a column that is extracted via various Data Bank tools (e.g., XML Data Bank, Browser Data Bank) is renamed or removed.  Please verify whether the column still exists in the data source or the Data Bank tool.  When there are multiple data sources in the test suite, verify the data source specified in the Data Source drop down box in the upper right hand corner of the UI.  If the column has been renamed or removed, please select a new column in the UI.
+
+If the column is extracted via a Data Bank tool, also verify whether the Data Bank tool was executed and whether the Data Bank tool received the input that it expected.
+
+DataSource: Keywords (row 1): Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Scenario: Test Suite (Book Buyer)/Test 3: getItemsInCart[Keywords (row 2)]"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.016">
+         <failure message="Multiple errors reported" type="Failure">DataSource: Keywords (row 2): Invalid WSDL. Connection refused: connect
+
+DataSource: Keywords (row 2): [cartId] No Data Source column named Test 2: cartId[1]
+This error often occurs when a column in the data source is renamed or removed.  This error can also occur when a column that is extracted via various Data Bank tools (e.g., XML Data Bank, Browser Data Bank) is renamed or removed.  Please verify whether the column still exists in the data source or the Data Bank tool.  When there are multiple data sources in the test suite, verify the data source specified in the Data Source drop down box in the upper right hand corner of the UI.  If the column has been renamed or removed, please select a new column in the UI.
+
+If the column is extracted via a Data Bank tool, also verify whether the Data Bank tool was executed and whether the Data Bank tool received the input that it expected.
+
+DataSource: Keywords (row 2): No Data Source column named Test 2: cartId[1]
+This error often occurs when a column in the data source is renamed or removed.  This error can also occur when a column that is extracted via various Data Bank tools (e.g., XML Data Bank, Browser Data Bank) is renamed or removed.  Please verify whether the column still exists in the data source or the Data Bank tool.  When there are multiple data sources in the test suite, verify the data source specified in the Data Source drop down box in the upper right hand corner of the UI.  If the column has been renamed or removed, please select a new column in the UI.
+
+If the column is extracted via a Data Bank tool, also verify whether the Data Bank tool was executed and whether the Data Bank tool received the input that it expected.
+
+DataSource: Keywords (row 2): Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Scenario: Test Suite (Book Buyer)/Test 3: getItemsInCart[Keywords (row 3)]"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.020">
+         <failure message="Multiple errors reported" type="Failure">DataSource: Keywords (row 3): Invalid WSDL. Connection refused: connect
+
+DataSource: Keywords (row 3): [cartId] No Data Source column named Test 2: cartId[1]
+This error often occurs when a column in the data source is renamed or removed.  This error can also occur when a column that is extracted via various Data Bank tools (e.g., XML Data Bank, Browser Data Bank) is renamed or removed.  Please verify whether the column still exists in the data source or the Data Bank tool.  When there are multiple data sources in the test suite, verify the data source specified in the Data Source drop down box in the upper right hand corner of the UI.  If the column has been renamed or removed, please select a new column in the UI.
+
+If the column is extracted via a Data Bank tool, also verify whether the Data Bank tool was executed and whether the Data Bank tool received the input that it expected.
+
+DataSource: Keywords (row 3): No Data Source column named Test 2: cartId[1]
+This error often occurs when a column in the data source is renamed or removed.  This error can also occur when a column that is extracted via various Data Bank tools (e.g., XML Data Bank, Browser Data Bank) is renamed or removed.  Please verify whether the column still exists in the data source or the Data Bank tool.  When there are multiple data sources in the test suite, verify the data source specified in the Data Source drop down box in the upper right hand corner of the UI.  If the column has been renamed or removed, please select a new column in the UI.
+
+If the column is extracted via a Data Bank tool, also verify whether the Data Bank tool was executed and whether the Data Bank tool received the input that it expected.
+
+DataSource: Keywords (row 3): Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Scenario: Test Suite (Book Buyer)/Test 3: getItemsInCart[Keywords (row 4)]"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.025">
+         <failure message="Multiple errors reported" type="Failure">DataSource: Keywords (row 4): Invalid WSDL. Connection refused: connect
+
+DataSource: Keywords (row 4): [cartId] No Data Source column named Test 2: cartId[1]
+This error often occurs when a column in the data source is renamed or removed.  This error can also occur when a column that is extracted via various Data Bank tools (e.g., XML Data Bank, Browser Data Bank) is renamed or removed.  Please verify whether the column still exists in the data source or the Data Bank tool.  When there are multiple data sources in the test suite, verify the data source specified in the Data Source drop down box in the upper right hand corner of the UI.  If the column has been renamed or removed, please select a new column in the UI.
+
+If the column is extracted via a Data Bank tool, also verify whether the Data Bank tool was executed and whether the Data Bank tool received the input that it expected.
+
+DataSource: Keywords (row 4): No Data Source column named Test 2: cartId[1]
+This error often occurs when a column in the data source is renamed or removed.  This error can also occur when a column that is extracted via various Data Bank tools (e.g., XML Data Bank, Browser Data Bank) is renamed or removed.  Please verify whether the column still exists in the data source or the Data Bank tool.  When there are multiple data sources in the test suite, verify the data source specified in the Data Source drop down box in the upper right hand corner of the UI.  If the column has been renamed or removed, please select a new column in the UI.
+
+If the column is extracted via a Data Bank tool, also verify whether the Data Bank tool was executed and whether the Data Bank tool received the input that it expected.
+
+DataSource: Keywords (row 4): Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Scenario: Test Suite (Book Buyer)/Test 4: submitOrder[Keywords (row 1)]"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.020">
+         <failure message="Multiple errors reported" type="Failure">DataSource: Keywords (row 1): Invalid WSDL. Connection refused: connect
+
+DataSource: Keywords (row 1): [cartId] No Data Source column named Test 2: cartId[1]
+This error often occurs when a column in the data source is renamed or removed.  This error can also occur when a column that is extracted via various Data Bank tools (e.g., XML Data Bank, Browser Data Bank) is renamed or removed.  Please verify whether the column still exists in the data source or the Data Bank tool.  When there are multiple data sources in the test suite, verify the data source specified in the Data Source drop down box in the upper right hand corner of the UI.  If the column has been renamed or removed, please select a new column in the UI.
+
+If the column is extracted via a Data Bank tool, also verify whether the Data Bank tool was executed and whether the Data Bank tool received the input that it expected.
+
+DataSource: Keywords (row 1): No Data Source column named Test 2: cartId[1]
+This error often occurs when a column in the data source is renamed or removed.  This error can also occur when a column that is extracted via various Data Bank tools (e.g., XML Data Bank, Browser Data Bank) is renamed or removed.  Please verify whether the column still exists in the data source or the Data Bank tool.  When there are multiple data sources in the test suite, verify the data source specified in the Data Source drop down box in the upper right hand corner of the UI.  If the column has been renamed or removed, please select a new column in the UI.
+
+If the column is extracted via a Data Bank tool, also verify whether the Data Bank tool was executed and whether the Data Bank tool received the input that it expected.
+
+DataSource: Keywords (row 1): Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Scenario: Test Suite (Book Buyer)/Test 4: submitOrder[Keywords (row 2)]"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.023">
+         <failure message="Multiple errors reported" type="Failure">DataSource: Keywords (row 2): Invalid WSDL. Connection refused: connect
+
+DataSource: Keywords (row 2): [cartId] No Data Source column named Test 2: cartId[1]
+This error often occurs when a column in the data source is renamed or removed.  This error can also occur when a column that is extracted via various Data Bank tools (e.g., XML Data Bank, Browser Data Bank) is renamed or removed.  Please verify whether the column still exists in the data source or the Data Bank tool.  When there are multiple data sources in the test suite, verify the data source specified in the Data Source drop down box in the upper right hand corner of the UI.  If the column has been renamed or removed, please select a new column in the UI.
+
+If the column is extracted via a Data Bank tool, also verify whether the Data Bank tool was executed and whether the Data Bank tool received the input that it expected.
+
+DataSource: Keywords (row 2): No Data Source column named Test 2: cartId[1]
+This error often occurs when a column in the data source is renamed or removed.  This error can also occur when a column that is extracted via various Data Bank tools (e.g., XML Data Bank, Browser Data Bank) is renamed or removed.  Please verify whether the column still exists in the data source or the Data Bank tool.  When there are multiple data sources in the test suite, verify the data source specified in the Data Source drop down box in the upper right hand corner of the UI.  If the column has been renamed or removed, please select a new column in the UI.
+
+If the column is extracted via a Data Bank tool, also verify whether the Data Bank tool was executed and whether the Data Bank tool received the input that it expected.
+
+DataSource: Keywords (row 2): Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Scenario: Test Suite (Book Buyer)/Test 4: submitOrder[Keywords (row 3)]"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.012">
+         <failure message="Multiple errors reported" type="Failure">DataSource: Keywords (row 3): Invalid WSDL. Connection refused: connect
+
+DataSource: Keywords (row 3): [cartId] No Data Source column named Test 2: cartId[1]
+This error often occurs when a column in the data source is renamed or removed.  This error can also occur when a column that is extracted via various Data Bank tools (e.g., XML Data Bank, Browser Data Bank) is renamed or removed.  Please verify whether the column still exists in the data source or the Data Bank tool.  When there are multiple data sources in the test suite, verify the data source specified in the Data Source drop down box in the upper right hand corner of the UI.  If the column has been renamed or removed, please select a new column in the UI.
+
+If the column is extracted via a Data Bank tool, also verify whether the Data Bank tool was executed and whether the Data Bank tool received the input that it expected.
+
+DataSource: Keywords (row 3): No Data Source column named Test 2: cartId[1]
+This error often occurs when a column in the data source is renamed or removed.  This error can also occur when a column that is extracted via various Data Bank tools (e.g., XML Data Bank, Browser Data Bank) is renamed or removed.  Please verify whether the column still exists in the data source or the Data Bank tool.  When there are multiple data sources in the test suite, verify the data source specified in the Data Source drop down box in the upper right hand corner of the UI.  If the column has been renamed or removed, please select a new column in the UI.
+
+If the column is extracted via a Data Bank tool, also verify whether the Data Bank tool was executed and whether the Data Bank tool received the input that it expected.
+
+DataSource: Keywords (row 3): Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.</failure>
+      </testcase>
+      <testcase name="Test Suite: Test Suite/Scenario: Test Suite (Book Buyer)/Test 4: submitOrder[Keywords (row 4)]"
+                 classname="TestAssets.PB-Bookstore1_tst"
+                 time="0.020">
+         <failure message="Multiple errors reported" type="Failure">DataSource: Keywords (row 4): Invalid WSDL. Connection refused: connect
+
+DataSource: Keywords (row 4): [cartId] No Data Source column named Test 2: cartId[1]
+This error often occurs when a column in the data source is renamed or removed.  This error can also occur when a column that is extracted via various Data Bank tools (e.g., XML Data Bank, Browser Data Bank) is renamed or removed.  Please verify whether the column still exists in the data source or the Data Bank tool.  When there are multiple data sources in the test suite, verify the data source specified in the Data Source drop down box in the upper right hand corner of the UI.  If the column has been renamed or removed, please select a new column in the UI.
+
+If the column is extracted via a Data Bank tool, also verify whether the Data Bank tool was executed and whether the Data Bank tool received the input that it expected.
+
+DataSource: Keywords (row 4): No Data Source column named Test 2: cartId[1]
+This error often occurs when a column in the data source is renamed or removed.  This error can also occur when a column that is extracted via various Data Bank tools (e.g., XML Data Bank, Browser Data Bank) is renamed or removed.  Please verify whether the column still exists in the data source or the Data Bank tool.  When there are multiple data sources in the test suite, verify the data source specified in the Data Source drop down box in the upper right hand corner of the UI.  If the column has been renamed or removed, please select a new column in the UI.
+
+If the column is extracted via a Data Bank tool, also verify whether the Data Bank tool was executed and whether the Data Bank tool received the input that it expected.
+
+DataSource: Keywords (row 4): Connection refused: connect
+A connection error has been detected.  This may occur if a test has timed out while the client was still attempting to send or receive data.</failure>
+      </testcase>
+      <system-out/>
+      <system-err/>
+   </testsuite>
+</testsuites>
