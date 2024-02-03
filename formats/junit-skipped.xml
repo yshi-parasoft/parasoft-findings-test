@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ExampleTestSuite" tests="3" skipped="1" failures="0" errors="0" timestamp="2024-02-02T00:00:00" time="0.123">
+    <properties>
+        <property name="java.vendor" value="Oracle Corporation"/>
+        <property name="compiler.version" value="1.8"/>
+    </properties>
+    <testcase classname="com.example.tests.ExampleTest" name="testFeatureA" time="0.050"/>
+    <testcase classname="com.example.tests.ExampleTest" name="testFeatureB" time="0.030">
+        <skipped message="Feature B is not yet implemented. Test is temporarily disabled."/>
+    </testcase>
+    <testcase classname="com.example.tests.ExampleTest" name="testFeatureC" time="0.043"/>
+</testsuite>
