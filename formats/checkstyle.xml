@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<checkstyle version="8.41">
+    <file name="/path/to/your/Class.java">
+        <error line="10" column="5" severity="warning" message="Method name 'getData' must match pattern '^[a-z][a-zA-Z0-9]*$'." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+        <!-- Hypothetical representation of a suppression -->
+        <suppression line="22" column="5" severity="info" message="Suppressed MethodNameCheck due to annotation." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck">
+            <justification>Temporary workaround for legacy method naming.</justification>
+        </suppression>
+        <!-- Actual Checkstyle output does not include this -->
+    </file>
+</checkstyle>
